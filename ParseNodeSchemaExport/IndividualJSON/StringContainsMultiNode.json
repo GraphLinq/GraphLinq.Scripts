@@ -1,0 +1,72 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": false,
+  "Graph": null,
+  "NodeType": "StringContainsMultiNode",
+  "FriendlyName": "String Contains Multiple",
+  "NodeGroupName": "String",
+  "NodeBlockType": "condition",
+  "NodeDescription": "Check if a string contains any item in array",
+  "InParameters": {
+    "string": {
+      "Id": "f3ae88eb-0378-4c8a-8016-2839ccd0de9e",
+      "Name": "string",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "searchItems": {
+      "Id": "64f836bd-ce67-4e18-90e1-6093c4876c3e",
+      "Name": "searchItems",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "true": {
+      "Id": "9778aafb-8b0f-4114-b5e2-b611e2d8fbf2",
+      "Name": "true",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Node, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": true
+    },
+    "false": {
+      "Id": "5bbeb020-32db-4114-9dd6-42f5520d941d",
+      "Name": "false",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Node, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": true
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": {
+    "Hidden": false,
+    "IsScriptInput": false,
+    "ScriptType": "lua",
+    "IsSecretInput": false,
+    "TypeId": "NodeBlock.Engine.Attributes.NodeIDEParametersAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+  }
+}

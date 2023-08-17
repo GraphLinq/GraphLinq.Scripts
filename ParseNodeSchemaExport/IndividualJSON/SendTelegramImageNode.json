@@ -1,0 +1,55 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": true,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "SendTelegramImageNode",
+  "FriendlyName": "Send Telegram Photo",
+  "NodeGroupName": "Telegram",
+  "NodeBlockType": "function",
+  "NodeDescription": "Send a photo on Telegram",
+  "InParameters": {
+    "telegramBot": {
+      "Id": "785ba88b-f200-4f99-9100-d1af15831f5b",
+      "Name": "telegramBot",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Messaging.Nodes.Telegram.TelegramBotInstanceNode, NodeBlock.Plugin.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "chatId": {
+      "Id": "17ca5bd6-422f-48b5-9ffa-31d15273e556",
+      "Name": "chatId",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "photo": {
+      "Id": "3bfd7e3d-67f1-46fa-8a1d-669812eb73db",
+      "Name": "photo",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {},
+  "OutNode": null,
+  "IDEParameters": null
+}

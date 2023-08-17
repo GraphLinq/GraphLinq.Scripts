@@ -1,0 +1,56 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "BinanceConnectorNode",
+  "FriendlyName": "Binance Connector",
+  "NodeGroupName": "Binance",
+  "NodeBlockType": "connector",
+  "NodeDescription": "Binance connector, for retrieve your ApiKey and ApiSecret go to your Binance account and create them",
+  "InParameters": {
+    "apiKey": {
+      "Id": "1aecf28f-e8f7-4a4a-bc7f-8d3d1e74d37f",
+      "Name": "apiKey",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "apiSecret": {
+      "Id": "4849f55d-8133-472b-be80-c1cc169e2d53",
+      "Name": "apiSecret",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "connection": {
+      "Id": "ec7f04e3-b55a-4e1e-bf07-32311c6a1c45",
+      "Name": "connection",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Exchange.Nodes.Binance.BinanceConnectorNode, NodeBlock.Plugin.Exchange, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,126 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": false,
+  "Graph": null,
+  "NodeType": "GetAvaxTransactionParametersNode",
+  "FriendlyName": "Get Transaction Parameters",
+  "NodeGroupName": "Blockchain.Avalanche",
+  "NodeBlockType": "function",
+  "NodeDescription": "Parse the last Avalanche transaction object received into string out parameters readable",
+  "InParameters": {
+    "transaction": {
+      "Id": "49cd0a25-7840-46ff-a472-5e1af88152f1",
+      "Name": "transaction",
+      "Value": null,
+      "ValueType": "Nethereum.RPC.Eth.DTOs.Transaction, Nethereum.RPC, Version=3.8.0.0, Culture=neutral, PublicKeyToken=8768a594786aba4e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "etherValue": {
+      "Id": "d3580086-aa25-4964-8ea3-7c50720f5533",
+      "Name": "etherValue",
+      "Value": null,
+      "ValueType": "System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "from": {
+      "Id": "7c4e656d-f3f2-41f6-92b1-6c578a7f92e9",
+      "Name": "from",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "to": {
+      "Id": "6e693de0-8dc2-4f76-a50a-e802cf1d8119",
+      "Name": "to",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "gasPrice": {
+      "Id": "774470f6-3ccb-4f44-95f4-e28125f7c240",
+      "Name": "gasPrice",
+      "Value": null,
+      "ValueType": "System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "gas": {
+      "Id": "d72ef69e-a2e8-4b30-8edd-c6885971098b",
+      "Name": "gas",
+      "Value": null,
+      "ValueType": "System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "hash": {
+      "Id": "70e54e53-d0b3-4c0c-a0ed-db7e55e9ae0d",
+      "Name": "hash",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "blockHash": {
+      "Id": "c071dfef-7a8b-4c15-95be-25dc39a900f5",
+      "Name": "blockHash",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "blockNumber": {
+      "Id": "caef7ce2-f0a2-4688-afe3-40a170a1d463",
+      "Name": "blockNumber",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "nonce": {
+      "Id": "8a92ebcc-f0eb-4ad7-8817-8c2a2959c58e",
+      "Name": "nonce",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

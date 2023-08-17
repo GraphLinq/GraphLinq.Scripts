@@ -1,0 +1,35 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "WebSocketClientOnDisconnectNode",
+  "FriendlyName": "On WebSocket Client Disconnect",
+  "NodeGroupName": "WebSocket",
+  "NodeBlockType": "event",
+  "NodeDescription": "Triggered when the WebSocket client is disconnected from the server",
+  "InParameters": {
+    "webSocketClient": {
+      "Id": "125d2a8e-9622-415f-ab87-5a2dae7b982d",
+      "Name": "webSocketClient",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Nodes.WebSocket.WebSocketClientConnectorNode, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {},
+  "OutNode": null,
+  "IDEParameters": null
+}

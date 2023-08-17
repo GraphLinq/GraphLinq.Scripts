@@ -1,0 +1,56 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "BinanceAvgPriceNode",
+  "FriendlyName": "Get Binance Average Price",
+  "NodeGroupName": "Binance",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get the current average price on binance for a symbol",
+  "InParameters": {
+    "connection": {
+      "Id": "8afcfa54-4dc4-484c-9eb1-436ba6035dba",
+      "Name": "connection",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Exchange.Nodes.Binance.BinanceConnectorNode, NodeBlock.Plugin.Exchange, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "symbol": {
+      "Id": "9fb6a6b1-6b0b-4cd2-9e44-bcd13dd12404",
+      "Name": "symbol",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "averagePrice": {
+      "Id": "986c3602-ac37-47d6-b317-d9ddb54982f6",
+      "Name": "averagePrice",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

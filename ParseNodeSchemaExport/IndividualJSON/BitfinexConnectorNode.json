@@ -1,0 +1,58 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "Client": null,
+  "SocketClient": null,
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "BitfinexConnectorNode",
+  "FriendlyName": "Bitfinex Connector",
+  "NodeGroupName": "Bitfinex",
+  "NodeBlockType": "connector",
+  "NodeDescription": "Bitfinex Connector, for retrieve your ApiKey and ApiSecret go to your Bitfinex account and create them",
+  "InParameters": {
+    "apiKey": {
+      "Id": "60c6be9c-dd86-4329-b44e-85706c9262ea",
+      "Name": "apiKey",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "apiSecret": {
+      "Id": "01caa856-4ca7-4eca-bed6-d0cc958ba14e",
+      "Name": "apiSecret",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "bitfinex": {
+      "Id": "a03ef6c1-59d0-4164-81db-f53fc01c2077",
+      "Name": "bitfinex",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Exchange.Nodes.Bitfinex.BitfinexConnectorNode, NodeBlock.Plugin.Exchange, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

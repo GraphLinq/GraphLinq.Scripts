@@ -1,0 +1,65 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": true,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "SendTelegramImageCaptionNode",
+  "FriendlyName": "Send Telegram Photo With Caption",
+  "NodeGroupName": "Telegram",
+  "NodeBlockType": "function",
+  "NodeDescription": "Send a photo on Telegram with a caption",
+  "InParameters": {
+    "telegramBot": {
+      "Id": "4f2ba8d5-6e23-4c76-8524-4d5268425433",
+      "Name": "telegramBot",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Messaging.Nodes.Telegram.TelegramBotInstanceNode, NodeBlock.Plugin.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "chatId": {
+      "Id": "12e0fcfa-8497-4394-b656-68f15e8b8eee",
+      "Name": "chatId",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "photo": {
+      "Id": "d9556045-1dce-4a57-b282-b1e3f823ff87",
+      "Name": "photo",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "caption": {
+      "Id": "b568726f-6c5f-4dfe-b991-74de135aa2b7",
+      "Name": "caption",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {},
+  "OutNode": null,
+  "IDEParameters": null
+}

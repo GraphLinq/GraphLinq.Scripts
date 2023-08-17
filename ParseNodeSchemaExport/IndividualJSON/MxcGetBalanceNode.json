@@ -1,0 +1,53 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [
+    {
+      "Text": "Go to mxc api #balance",
+      "Type": "open_url",
+      "Parameter": "https://mxcdevelop.github.io/APIDoc/open.api.v2.en.html#balance",
+      "TypeId": "NodeBlock.Engine.Attributes.NodeSpecialActionAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "MxcGetBalanceNode",
+  "FriendlyName": "Get MXC Balance",
+  "NodeGroupName": "MXC",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get the current account balance on MXC. data is json result.",
+  "InParameters": {
+    "mxc": {
+      "Id": "8d57ace3-066b-4bb5-8891-80c1d594c861",
+      "Name": "mxc",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Exchange.Nodes.MXC.MxcConnectorNode, NodeBlock.Plugin.Exchange, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "data": {
+      "Id": "3df6cb3f-88f2-438e-9b97-6af84f8cd859",
+      "Name": "data",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

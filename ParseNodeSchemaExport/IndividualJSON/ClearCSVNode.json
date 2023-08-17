@@ -1,0 +1,35 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": true,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "ClearCSVNode",
+  "FriendlyName": "Clear CSV Rows",
+  "NodeGroupName": "CSV",
+  "NodeBlockType": "function",
+  "NodeDescription": "Clear CSV Rows",
+  "InParameters": {
+    "csv": {
+      "Id": "2e836609-31d8-4c78-9716-ed27c3b8f83c",
+      "Name": "csv",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Nodes.CSV.CreateCSVNode, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {},
+  "OutNode": null,
+  "IDEParameters": null
+}

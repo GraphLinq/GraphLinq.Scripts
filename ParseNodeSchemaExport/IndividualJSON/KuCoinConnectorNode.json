@@ -1,0 +1,66 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "KuCoinConnectorNode",
+  "FriendlyName": "KuCoin Connector",
+  "NodeGroupName": "KuCoin",
+  "NodeBlockType": "connector",
+  "NodeDescription": "Kucoin connector",
+  "InParameters": {
+    "apiKey": {
+      "Id": "90189a14-40c9-4529-af0e-fcdfcbd2a2f2",
+      "Name": "apiKey",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "apiSecret": {
+      "Id": "73799e25-6e77-41d8-86e5-af057615a8a9",
+      "Name": "apiSecret",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "apiPassphrase": {
+      "Id": "f8491120-b39c-486d-b9fe-51ea64e4d5ca",
+      "Name": "apiPassphrase",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "kucoin": {
+      "Id": "f9732373-6301-4d92-bb03-b2a02eb603d8",
+      "Name": "kucoin",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Exchange.Nodes.KuCoin.KuCoinConnectorNode, NodeBlock.Plugin.Exchange, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

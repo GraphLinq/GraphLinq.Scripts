@@ -1,0 +1,35 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "10000000000000",
+  "SpecialActionsAttributes": [],
+  "CanExecute": true,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "PrintNode",
+  "FriendlyName": "Print",
+  "NodeGroupName": "Log",
+  "NodeBlockType": "function",
+  "NodeDescription": "Display a message in the console logs",
+  "InParameters": {
+    "message": {
+      "Id": "7309f0b5-3eec-4c0d-a2de-20e7713013c5",
+      "Name": "message",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {},
+  "OutNode": null,
+  "IDEParameters": null
+}

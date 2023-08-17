@@ -1,0 +1,86 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetCoinGeckoSimplePriceNode",
+  "FriendlyName": "Get CoinGecko Coin",
+  "NodeGroupName": "CoinGecko",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get CoinGecko Coin Data",
+  "InParameters": {
+    "symbol": {
+      "Id": "ba10c35c-a820-46b5-9b5d-9018e86bb961",
+      "Name": "symbol",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "price": {
+      "Id": "218a5515-0b6a-434b-9b8a-1f56249e4ab2",
+      "Name": "price",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "ath": {
+      "Id": "cf357dcd-9746-4e67-9888-61002843da35",
+      "Name": "ath",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "marketCapChange24H": {
+      "Id": "07a81932-a858-456e-b364-331d283c29c1",
+      "Name": "marketCapChange24H",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "marketCap": {
+      "Id": "499f66c3-993f-4325-b79d-3020dc27a6a6",
+      "Name": "marketCap",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "volume24H": {
+      "Id": "74fd1d74-996c-44f2-9262-9d4331dbbff8",
+      "Name": "volume24H",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,46 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": true,
+  "CanBeExecuted": false,
+  "Graph": null,
+  "NodeType": "WebSocketReceiveDataEventNode",
+  "FriendlyName": "WebSocket Receive Data Event",
+  "NodeGroupName": "WebSocket",
+  "NodeBlockType": "event",
+  "NodeDescription": "Trigger events when data is received from the WebSocket server",
+  "InParameters": {
+    "webSocketClient": {
+      "Id": "596ac43d-a662-4d1f-8f4c-fee95b752029",
+      "Name": "webSocketClient",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Nodes.WebSocket.WebSocketClientConnectorNode, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "data": {
+      "Id": "fcab0c10-613a-49cc-826d-068156cfd620",
+      "Name": "data",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

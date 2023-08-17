@@ -1,0 +1,54 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [
+    {
+      "Text": "Get your API Key",
+      "Type": "open_url",
+      "Parameter": "https://steamcommunity.com/dev/registerkey",
+      "TypeId": "NodeBlock.Engine.Attributes.NodeSpecialActionAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "APIKey": null,
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "SteamWebAPIConnectorNode",
+  "FriendlyName": "Steam WebAPI Connector",
+  "NodeGroupName": "Steam",
+  "NodeBlockType": "connector",
+  "NodeDescription": "Steam WebAPI connector, allow you to request some informations on the steam platform",
+  "InParameters": {
+    "apiKey": {
+      "Id": "0a71a4fc-56d2-4937-8a4f-d922069e1c03",
+      "Name": "apiKey",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "steam": {
+      "Id": "1b6a8be6-0730-498b-883f-387653e1b0d1",
+      "Name": "steam",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Gaming.Nodes.Steam.SteamWebAPIConnectorNode, NodeBlock.Plugin.Gaming, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

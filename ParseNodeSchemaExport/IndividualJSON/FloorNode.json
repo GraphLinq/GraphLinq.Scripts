@@ -1,0 +1,46 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": false,
+  "CanBeExecuted": false,
+  "Graph": null,
+  "NodeType": "FloorNode",
+  "FriendlyName": "Floor",
+  "NodeGroupName": "Math",
+  "NodeBlockType": "function",
+  "NodeDescription": "Floor the value",
+  "InParameters": {
+    "number": {
+      "Id": "8d41b028-cc7a-4861-b872-c9f2af6fde03",
+      "Name": "number",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "value": {
+      "Id": "b3405e4d-5a6b-49c0-9251-046ee3b2829f",
+      "Name": "value",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": true,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

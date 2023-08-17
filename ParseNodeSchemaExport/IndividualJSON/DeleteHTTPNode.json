@@ -1,0 +1,66 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": true,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "DeleteHTTPNode",
+  "FriendlyName": "Delete HTTP Request",
+  "NodeGroupName": "HTTP",
+  "NodeBlockType": "function",
+  "NodeDescription": "Make an HTTP Delete request to any requested server",
+  "InParameters": {
+    "url": {
+      "Id": "f6e7c15f-e6e4-4659-94f2-9ad336827412",
+      "Name": "url",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "headers": {
+      "Id": "801854d0-af20-4e9a-bbe0-d38a8077a9f8",
+      "Name": "headers",
+      "Value": null,
+      "ValueType": "System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "result": {
+      "Id": "19d8676e-a508-412b-b382-caaab617355c",
+      "Name": "result",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": true,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "exception": {
+      "Id": "87011855-1958-4cf1-acae-8272a5a51390",
+      "Name": "exception",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Node, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": true,
+      "Assignments": null,
+      "IsReference": true
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

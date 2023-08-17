@@ -1,0 +1,67 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "Client": null,
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "SMTPConnectorNode",
+  "FriendlyName": "SMTP Connector",
+  "NodeGroupName": "SMTP",
+  "NodeBlockType": "connector",
+  "NodeDescription": "SMTP Connector, allow you to send email from your graph",
+  "InParameters": {
+    "host": {
+      "Id": "338ae65d-709d-4828-8ebc-0ee564fff580",
+      "Name": "host",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "port": {
+      "Id": "d37de018-ebe8-48b2-952d-62e46a54ff46",
+      "Name": "port",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "useSSL": {
+      "Id": "1342f5b8-fa38-416c-9eb9-b607d44db895",
+      "Name": "useSSL",
+      "Value": null,
+      "ValueType": "System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "smtp": {
+      "Id": "238c4df0-367a-4639-a16b-25ae6ef46fb5",
+      "Name": "smtp",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Messaging.Nodes.SMTP.SMTPConnectorNode, NodeBlock.Plugin.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

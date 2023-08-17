@@ -1,0 +1,75 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetAvascanSupplyNode",
+  "FriendlyName": "Get Avascan Supply",
+  "NodeGroupName": "Avalanche.Avascan",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get Supply From Avascan",
+  "InParameters": {},
+  "OutParameters": {
+    "genesisUnlock": {
+      "Id": "a008b54c-fd2e-445d-940d-361e9c6ce821",
+      "Name": "genesisUnlock",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "stakingRewards": {
+      "Id": "13446229-b2dc-4a39-a7e1-7b2170983d0e",
+      "Name": "stakingRewards",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "lastUpdate": {
+      "Id": "cfdb89b4-55c2-4cd1-ac8a-a056eb2025fc",
+      "Name": "lastUpdate",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "circulatingSupply": {
+      "Id": "0971b87a-7844-4cee-a6f0-19ffa7cfd66f",
+      "Name": "circulatingSupply",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "totalSupply": {
+      "Id": "c8b22b58-2d8f-4fee-a3d8-df9eb30ff337",
+      "Name": "totalSupply",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

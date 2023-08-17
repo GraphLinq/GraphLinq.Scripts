@@ -1,0 +1,46 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": false,
+  "Graph": null,
+  "NodeType": "ConvertToJsonNode",
+  "FriendlyName": "Convert To JSON",
+  "NodeGroupName": "JSON",
+  "NodeBlockType": "function",
+  "NodeDescription": "Convert the received any type parameter into a JSON object readable",
+  "InParameters": {
+    "object": {
+      "Id": "2adb5a69-38ff-4abf-8453-3dd697fb2378",
+      "Name": "object",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "json": {
+      "Id": "53a1a1c0-501d-4761-8002-55b2b17e28d2",
+      "Name": "json",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

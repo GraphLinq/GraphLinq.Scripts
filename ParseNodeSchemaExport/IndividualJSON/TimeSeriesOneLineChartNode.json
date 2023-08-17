@@ -1,0 +1,76 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "TimeSeriesOneLineChartNode",
+  "FriendlyName": "Generate Time Series One Line Chart",
+  "NodeGroupName": "Charting",
+  "NodeBlockType": "function",
+  "NodeDescription": "Generate image from time series data with one line",
+  "InParameters": {
+    "xDataSeries": {
+      "Id": "8e940af5-721c-4768-bd5e-be98c7bf2a17",
+      "Name": "xDataSeries",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "yDataSeries": {
+      "Id": "4e14c95b-2f30-4d51-9f32-af7dff245035",
+      "Name": "yDataSeries",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "chartLabel": {
+      "Id": "779d4ef0-021a-4719-9489-397e395f32e1",
+      "Name": "chartLabel",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "dataLabel": {
+      "Id": "c0740b52-8d58-4d54-b950-25ff6c71a0ad",
+      "Name": "dataLabel",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "chartUrl": {
+      "Id": "b2b20985-5f7a-470d-8d92-6c2cf2195605",
+      "Name": "chartUrl",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,86 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "TimeSeriesTwoLineChartNode",
+  "FriendlyName": "Generate Time Series Two Line Chart",
+  "NodeGroupName": "Charting",
+  "NodeBlockType": "function",
+  "NodeDescription": "Generate image from time series data with two lines",
+  "InParameters": {
+    "xDataSeries": {
+      "Id": "7fe74198-fa67-432f-a63f-994a523b810b",
+      "Name": "xDataSeries",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "y1DataSeries": {
+      "Id": "481724d5-7319-47b5-bdf6-ccb739c24b5e",
+      "Name": "y1DataSeries",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "y2DataSeries": {
+      "Id": "397e8047-8fb6-4302-945f-03674a261182",
+      "Name": "y2DataSeries",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "y1Label": {
+      "Id": "e2fd532f-7ee8-4824-adf7-919475721da6",
+      "Name": "y1Label",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "y2Label": {
+      "Id": "cd0e9eef-fc5c-4b4e-ad1d-47e1736e40c5",
+      "Name": "y2Label",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "chartUrl": {
+      "Id": "6cb1737b-3b7a-452a-81c6-a6805a4f27d8",
+      "Name": "chartUrl",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

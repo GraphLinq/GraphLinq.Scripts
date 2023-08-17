@@ -1,0 +1,96 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnDiscordChannelCommandNode",
+  "FriendlyName": "On Discord Command",
+  "NodeGroupName": "Discord",
+  "NodeBlockType": "event",
+  "NodeDescription": "Trigger a event when receive a command in channel on Discord",
+  "InParameters": {
+    "discord": {
+      "Id": "9975d2b7-737f-4f78-a46a-3f0697f2b251",
+      "Name": "discord",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Messaging.Nodes.Discord.DiscordConnector, NodeBlock.Plugin.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "channelId": {
+      "Id": "0051f33f-9483-40a5-b690-ed96778659af",
+      "Name": "channelId",
+      "Value": null,
+      "ValueType": "System.UInt64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "prefix": {
+      "Id": "91170b11-5f09-4d5e-8fb3-127717024738",
+      "Name": "prefix",
+      "Value": null,
+      "ValueType": "System.Char, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "command": {
+      "Id": "37796d0f-a8ba-4f40-895c-dd638573a747",
+      "Name": "command",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "guildId": {
+      "Id": "f458991b-5ef2-4f4d-bfae-81376e844a9b",
+      "Name": "guildId",
+      "Value": null,
+      "ValueType": "System.UInt64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "channel": {
+      "Id": "01f97553-7bc9-44d8-9aae-1ed274f293d6",
+      "Name": "channel",
+      "Value": null,
+      "ValueType": "System.UInt64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "params": {
+      "Id": "54833303-43b6-46d4-9c9c-331cf52343f5",
+      "Name": "params",
+      "Value": null,
+      "ValueType": "System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

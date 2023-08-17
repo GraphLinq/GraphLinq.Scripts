@@ -1,0 +1,192 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "FetchExchangeListNode",
+  "FriendlyName": "Fetch Exchange List",
+  "NodeGroupName": "LiveCoinWatch",
+  "NodeBlockType": "function",
+  "NodeDescription": "Fetch exchange list on LiveCoinWatch",
+  "InParameters": {
+    "liveCoinWatch": {
+      "Id": "f65cad4b-2e25-472b-82c0-a5cbba71afb0",
+      "Name": "liveCoinWatch",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Exchange.Nodes.LiveCoinWatch.LiveCoinWatchConnectorNode, NodeBlock.Plugin.Exchange, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "currency": {
+      "Id": "08c60bc5-1b0d-4ec6-9d5a-291667baa195",
+      "Name": "currency",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "sort": {
+      "Id": "72b7465a-e907-4eae-93db-914178ec65b4",
+      "Name": "sort",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "order": {
+      "Id": "f96b64bf-7b4c-4e7d-83b7-ea7913f7d7e9",
+      "Name": "order",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "offset": {
+      "Id": "3541dfeb-c9a0-49cd-80a6-26e2720180fd",
+      "Name": "offset",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "limit": {
+      "Id": "8d0bee76-b82c-4d09-a718-7efade822cb0",
+      "Name": "limit",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "volume": {
+      "Id": "558b417b-76de-485f-aca7-da368da48e48",
+      "Name": "volume",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "name": {
+      "Id": "fe4024ea-bffa-488b-a53f-bdae52193ef4",
+      "Name": "name",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "png64": {
+      "Id": "bc781803-8cf6-41cb-a677-492c1b044e46",
+      "Name": "png64",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "png128": {
+      "Id": "10a10329-c6c1-40eb-ae9e-d237dba3fa69",
+      "Name": "png128",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "markets": {
+      "Id": "317a55bf-0201-4e2d-b599-29e1dcb148c9",
+      "Name": "markets",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "bidTotal": {
+      "Id": "49ee726e-2f2f-4856-b20a-c009443688e9",
+      "Name": "bidTotal",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "askTotal": {
+      "Id": "bcd159a1-fa99-4428-b281-5e2ebb39ef29",
+      "Name": "askTotal",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "depth": {
+      "Id": "484e3f39-45a8-4e76-aeb6-6335a3ad4714",
+      "Name": "depth",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "visitors": {
+      "Id": "7d2f798b-8569-4fe2-a253-32addd07e895",
+      "Name": "vistors",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "volumePerVistor": {
+      "Id": "e41b9188-b1b6-4f97-970c-8b1f85cc8cc0",
+      "Name": "volumePerVisitor",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": {
+    "Hidden": true,
+    "IsScriptInput": false,
+    "ScriptType": "lua",
+    "IsSecretInput": false,
+    "TypeId": "NodeBlock.Engine.Attributes.NodeIDEParametersAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+  }
+}

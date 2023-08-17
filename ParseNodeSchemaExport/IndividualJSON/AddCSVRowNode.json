@@ -1,0 +1,45 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": true,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "AddCSVRowNode",
+  "FriendlyName": "Add CSV Row",
+  "NodeGroupName": "CSV",
+  "NodeBlockType": "function",
+  "NodeDescription": "Add a row to a csv",
+  "InParameters": {
+    "csv": {
+      "Id": "c1baf7f3-47a5-43ec-82cd-493e3f4feedf",
+      "Name": "csv",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Nodes.CSV.CreateCSVNode, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "row": {
+      "Id": "7d570cd0-cd26-4f12-8ce2-d3e58c3ce7a2",
+      "Name": "row",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Nodes.CSV.CreateCSVRowNode, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {},
+  "OutNode": null,
+  "IDEParameters": null
+}

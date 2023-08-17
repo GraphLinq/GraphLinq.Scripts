@@ -1,0 +1,58 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "Uri": null,
+  "WebSocketClient": null,
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "WebSocketClientConnectorNode",
+  "FriendlyName": "WebSocket Client Connector",
+  "NodeGroupName": "WebSocket",
+  "NodeBlockType": "connector",
+  "NodeDescription": "Create a WebSocket client that connects to a WebSocket server",
+  "InParameters": {
+    "uri": {
+      "Id": "3b19ba95-41a4-47b7-b29b-d3d5addcd188",
+      "Name": "uri",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "webSocketClient": {
+      "Id": "96392517-4d30-4aca-863e-1f9a58ee86a3",
+      "Name": "webSocketClient",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Nodes.WebSocket.WebSocketClientConnectorNode, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "onError": {
+      "Id": "7bf96536-3982-40ec-b868-28dcaa156d66",
+      "Name": "onError",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Node, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": true
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,82 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetQsLiquidityProviderTokenNode",
+  "FriendlyName": "Get Quickswap LP Token",
+  "NodeGroupName": "Quickswap",
+  "NodeBlockType": "function",
+  "NodeDescription": "Return all information about a liquidity provider token",
+  "InParameters": {
+    "ethConnection": {
+      "Id": "49acfe2f-ca79-4e7f-b184-5b2b3fec991e",
+      "Name": "ethConnection",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "address": {
+      "Id": "b76cafe3-64ef-4e1a-859f-677f0cd1580e",
+      "Name": "address",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "name": {
+      "Id": "88985682-1824-46fd-b016-9a0256964aa7",
+      "Name": "name",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "token0": {
+      "Id": "b11d1d58-334e-4548-8fe1-f63f58091e06",
+      "Name": "token0",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "token1": {
+      "Id": "cb3924cf-13a1-4022-a7a8-8f05a0895f59",
+      "Name": "token1",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": {
+    "Hidden": false,
+    "IsScriptInput": false,
+    "ScriptType": "lua",
+    "IsSecretInput": false,
+    "TypeId": "NodeBlock.Engine.Attributes.NodeIDEParametersAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+  }
+}

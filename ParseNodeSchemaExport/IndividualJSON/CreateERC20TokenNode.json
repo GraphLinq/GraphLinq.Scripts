@@ -1,0 +1,77 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "ERC20Token": null,
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "CreateERC20TokenNode",
+  "FriendlyName": "Create ERC20 Token",
+  "NodeGroupName": "Blockchain.Ethereum.ERC20",
+  "NodeBlockType": "deployer",
+  "NodeDescription": "Create a new ERC20 token instance",
+  "InParameters": {
+    "name": {
+      "Id": "0b4a1e83-708c-45a4-8c6f-ff80566ca66f",
+      "Name": "name",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "symbol": {
+      "Id": "3ae58245-849d-43a5-b8be-ae013612bb27",
+      "Name": "symbol",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "owner": {
+      "Id": "5e3ce038-5825-4326-9f6e-50e6b1c4983d",
+      "Name": "owner",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "totalSupply": {
+      "Id": "900393f1-e963-4b6a-87c2-f8784a3d150a",
+      "Name": "totalSupply",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "erc20": {
+      "Id": "dd6ed5f9-9c77-484e-8c85-45a8e684a76d",
+      "Name": "erc20",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.Eth.CoinCreator.Models.ERC20CreatorModel, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

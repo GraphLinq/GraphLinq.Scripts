@@ -1,0 +1,35 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "ConvertLastNodeParametersToCSVRowNode",
+  "FriendlyName": "Convert Last Node Parameters To CSV Row",
+  "NodeGroupName": "CSV",
+  "NodeBlockType": "function",
+  "NodeDescription": "Convert last node out parameters to CSV row",
+  "InParameters": {},
+  "OutParameters": {
+    "row": {
+      "Id": "6cf53bb1-65e3-4f98-ac9d-1c0c93d8f945",
+      "Name": "row",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Nodes.CSV.CreateCSVRowNode, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

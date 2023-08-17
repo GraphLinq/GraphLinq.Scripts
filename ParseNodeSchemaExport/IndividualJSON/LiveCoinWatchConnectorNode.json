@@ -1,0 +1,60 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [
+    {
+      "Text": "Go to LiveCoinWatch API Portal",
+      "Type": "open_url",
+      "Parameter": "https://www.livecoinwatch.com/tools/api",
+      "TypeId": "NodeBlock.Engine.Attributes.NodeSpecialActionAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "API": null,
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "LiveCoinWatchConnectorNode",
+  "FriendlyName": "LiveCoinWatch Connector",
+  "NodeGroupName": "LiveCoinWatch",
+  "NodeBlockType": "connector",
+  "NodeDescription": "LiveCoinWatch Connector",
+  "InParameters": {
+    "apiKey": {
+      "Id": "6cd8309e-de65-457e-8c1f-df5b7a977f9a",
+      "Name": "apiKey",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "liveCoinWatch": {
+      "Id": "1c02cda3-0e46-4d33-8232-ef9f4d1fad82",
+      "Name": "liveCoinWatch",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Exchange.Nodes.LiveCoinWatch.LiveCoinWatchConnectorNode, NodeBlock.Plugin.Exchange, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": {
+    "Hidden": false,
+    "IsScriptInput": false,
+    "ScriptType": "lua",
+    "IsSecretInput": false,
+    "TypeId": "NodeBlock.Engine.Attributes.NodeIDEParametersAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+  }
+}

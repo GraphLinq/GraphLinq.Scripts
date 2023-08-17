@@ -1,0 +1,62 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetSantimentActiveWalletByCurrencyNode",
+  "FriendlyName": "Get Santiment Active Wallets",
+  "NodeGroupName": "Santiment",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get number of active wallets by currency from Santiment API",
+  "InParameters": {
+    "santiment": {
+      "Id": "3ca972c3-7692-4dd8-ab37-5050b61fa024",
+      "Name": "santiment",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.Santiment.Nodes.SantimentConnector, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "currency": {
+      "Id": "adfab466-3839-406b-9e8e-fe70a52d9290",
+      "Name": "currency",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "count": {
+      "Id": "d785785f-719e-4dcd-9892-939cc0c31938",
+      "Name": "count",
+      "Value": null,
+      "ValueType": "System.Int64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": {
+    "Hidden": true,
+    "IsScriptInput": false,
+    "ScriptType": "lua",
+    "IsSecretInput": false,
+    "TypeId": "NodeBlock.Engine.Attributes.NodeIDEParametersAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetSantimentDailyVolumeNode",
+  "FriendlyName": "Get Santiment Daily Volume",
+  "NodeGroupName": "Santiment",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get daily volume by currency from Santiment API",
+  "InParameters": {
+    "santiment": {
+      "Id": "e6b2b64d-8ece-43d9-84b4-3cb47afd29b7",
+      "Name": "santiment",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.Santiment.Nodes.SantimentConnector, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "currency": {
+      "Id": "d0c1df3a-0fe6-4637-9db4-d74086d1ffb5",
+      "Name": "currency",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "volume": {
+      "Id": "41ee8cf6-de7b-4dd6-9b3e-08330e2155b8",
+      "Name": "volume",
+      "Value": null,
+      "ValueType": "System.Int64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": {
+    "Hidden": true,
+    "IsScriptInput": false,
+    "ScriptType": "lua",
+    "IsSecretInput": false,
+    "TypeId": "NodeBlock.Engine.Attributes.NodeIDEParametersAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": false,
+  "CanBeExecuted": false,
+  "Graph": null,
+  "NodeType": "DivideNode",
+  "FriendlyName": "Divide A / B",
+  "NodeGroupName": "Math",
+  "NodeBlockType": "function",
+  "NodeDescription": "Calculate the division of value of A / B (both sent in params) and return it as out parameter, zero division are forbidden.",
+  "InParameters": {
+    "a": {
+      "Id": "1498c4a0-aa81-4f99-8edd-7085f870cbf4",
+      "Name": "a",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "b": {
+      "Id": "dd413c76-d4c9-44a4-bd14-646fd0fecd8c",
+      "Name": "b",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "value": {
+      "Id": "b88b794c-97bf-490e-ae86-6ce64b981669",
+      "Name": "value",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": true,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,122 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnQuickswapSwapNode",
+  "FriendlyName": "On Quickswap Swap",
+  "NodeGroupName": "Quickswap",
+  "NodeBlockType": "event",
+  "NodeDescription": "Event that trigger on each new swap request on Quickswap from a specific token smart-contract address",
+  "InParameters": {
+    "connection": {
+      "Id": "b6d5ac92-8f26-4e21-ac20-8d931cc28ce6",
+      "Name": "connection",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "contractAddress": {
+      "Id": "139bf460-0359-4d7d-bc89-6056bfb94b6c",
+      "Name": "contractAddress",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "transactionHash": {
+      "Id": "6638987a-2dbe-44ad-8a31-de5dd70b4d99",
+      "Name": "transactionHash",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "sender": {
+      "Id": "a4297af1-91ca-46d0-9d18-fb5addb3ae3e",
+      "Name": "sender",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "to": {
+      "Id": "b6f8508e-a2ae-4a57-92f3-3a240aedb8ba",
+      "Name": "to",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "amount0In": {
+      "Id": "92e5fc8b-5fad-4a00-aa19-57a33c959dd6",
+      "Name": "amount0In",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "amount1In": {
+      "Id": "37085ab1-534b-4b7e-945a-753d88f2f149",
+      "Name": "amount1In",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "amount0Out": {
+      "Id": "fe522680-957d-4de2-b01e-8569bb810562",
+      "Name": "amount0Out",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "amount1Out": {
+      "Id": "0b2afb50-43c2-444c-98a6-569923b29187",
+      "Name": "amount1Out",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": {
+    "Hidden": false,
+    "IsScriptInput": false,
+    "ScriptType": "lua",
+    "IsSecretInput": false,
+    "TypeId": "NodeBlock.Engine.Attributes.NodeIDEParametersAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+  }
+}

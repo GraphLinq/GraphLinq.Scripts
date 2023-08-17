@@ -1,0 +1,66 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "CancelKuCoinOrderNode",
+  "FriendlyName": "Cancel KuCoin Open Order",
+  "NodeGroupName": "KuCoin",
+  "NodeBlockType": "function",
+  "NodeDescription": "Cancel KuCoin Open Order",
+  "InParameters": {
+    "kucoin": {
+      "Id": "b1c237af-8215-4fbc-9583-8e1a035289be",
+      "Name": "kucoin",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "tradeId": {
+      "Id": "2de45b6c-6d4e-49ba-92e9-1afd15c55dce",
+      "Name": "tradeId",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "isSuccess": {
+      "Id": "9129a061-aa88-49a4-9c57-6b664733bb8d",
+      "Name": "isSuccess",
+      "Value": null,
+      "ValueType": "System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "error": {
+      "Id": "94c8a78c-cb6a-492a-9a99-e75658194ff0",
+      "Name": "error",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

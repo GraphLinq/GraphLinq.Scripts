@@ -1,0 +1,56 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": false,
+  "CanBeExecuted": false,
+  "Graph": null,
+  "NodeType": "SubtractNode",
+  "FriendlyName": "Substract A - B",
+  "NodeGroupName": "Math",
+  "NodeBlockType": "function",
+  "NodeDescription": "Calculate the substraction of value of A - B (both sent in params) and return it as out parameter.",
+  "InParameters": {
+    "a": {
+      "Id": "03345059-5826-4091-aeba-f21c2824d93c",
+      "Name": "a",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "b": {
+      "Id": "120047cc-5b11-4a97-baa4-1773bbd07582",
+      "Name": "b",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "value": {
+      "Id": "8da1f7ec-8566-4b9f-83cc-e5bea19aeb66",
+      "Name": "value",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": true,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,56 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetKrakenAssetBalanceNode",
+  "FriendlyName": "Get Kraken Asset Balance",
+  "NodeGroupName": "Kraken",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get your balance of a specific asset on Kraken",
+  "InParameters": {
+    "kraken": {
+      "Id": "fe9bb7cc-7aab-43b0-8967-17a7e07284b7",
+      "Name": "kraken",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "symbol": {
+      "Id": "a0b2492a-c218-4a15-816b-1bb4c2a514fb",
+      "Name": "symbol",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "balance": {
+      "Id": "beef4d96-d6b6-4778-aec3-aaa6e931433d",
+      "Name": "balance",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

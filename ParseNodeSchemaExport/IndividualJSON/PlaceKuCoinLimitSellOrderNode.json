@@ -1,0 +1,96 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "PlaceKuCoinLimitSellOrderNode",
+  "FriendlyName": "Place KuCoin Limit Sell Order",
+  "NodeGroupName": "KuCoin",
+  "NodeBlockType": "function",
+  "NodeDescription": "Place KuCoin Limit Sell Order",
+  "InParameters": {
+    "kucoin": {
+      "Id": "37a7b80a-6fb7-4840-a237-2861ea1ac645",
+      "Name": "kucoin",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "symbol": {
+      "Id": "35ab9a7b-e491-4707-a1b2-69268b58b928",
+      "Name": "symbol",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "price": {
+      "Id": "909ceba3-b36e-45dc-b7f4-250c5d9f7afa",
+      "Name": "price",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "quantity": {
+      "Id": "17dfb0c2-9cbb-4ea9-8f05-fe044bcc6ccf",
+      "Name": "quantity",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "isSuccess": {
+      "Id": "5b075b8e-472e-46f6-8de2-8edd9d0a3356",
+      "Name": "isSuccess",
+      "Value": null,
+      "ValueType": "System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "tradeId": {
+      "Id": "34f4264e-ad8d-4882-a939-c108487ac92a",
+      "Name": "tradeId",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "error": {
+      "Id": "0201cceb-beb8-4350-9329-2ab701832aa3",
+      "Name": "error",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

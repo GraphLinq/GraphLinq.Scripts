@@ -1,0 +1,46 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnNewTransactionEventNode",
+  "FriendlyName": "On Ethereum Transaction",
+  "NodeGroupName": "Blockchain.Ethereum",
+  "NodeBlockType": "event",
+  "NodeDescription": "Event that occurs everytime a new ethereum transaction appears in the last network block",
+  "InParameters": {
+    "connection": {
+      "Id": "01fb71a2-d922-483e-b8ef-edef78975658",
+      "Name": "connection",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "transactionHash": {
+      "Id": "96239c20-6982-43c8-bb8a-0a24b4d2f732",
+      "Name": "transactionHash",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

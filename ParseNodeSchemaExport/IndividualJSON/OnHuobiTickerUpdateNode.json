@@ -1,0 +1,116 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 1000,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnHuobiTickerUpdateNode",
+  "FriendlyName": "On Huobi Pair Kline Update",
+  "NodeGroupName": "Huobi",
+  "NodeBlockType": "event",
+  "NodeDescription": "Get a event when the kline is updated on Huobi for a symbol. Symbol example : ethusdt",
+  "InParameters": {
+    "huobi": {
+      "Id": "1f22042e-7cfd-4a37-b2d7-2bf2fd169480",
+      "Name": "huobi",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Exchange.Nodes.Huobi.HuobiConnectorNode, NodeBlock.Plugin.Exchange, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "symbol": {
+      "Id": "f8ede027-c1e4-42b2-bf48-7deeeb7f7f34",
+      "Name": "symbol",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "amount": {
+      "Id": "d2261a73-ce36-411d-92f9-a0c80ec63931",
+      "Name": "amount",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "open": {
+      "Id": "59c691f2-8ead-4359-9463-6bf8c8623b42",
+      "Name": "open",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "close": {
+      "Id": "1d92dc83-30f5-4939-a44b-f498d5c5aac5",
+      "Name": "close",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "low": {
+      "Id": "9b28afda-c29e-4f54-9974-0fde3786d31d",
+      "Name": "low",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "high": {
+      "Id": "8b79ce27-4ce0-4b3e-a397-dd843cbff698",
+      "Name": "high",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "tradeCount": {
+      "Id": "c77bfeab-af34-40b4-8a5d-79f4e7c01550",
+      "Name": "tradeCount",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "volume": {
+      "Id": "3333cac9-a4c2-4665-ac36-dbfcd8523f0e",
+      "Name": "volume",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,46 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "TwitchOnChannelJoinedNode",
+  "FriendlyName": "On Twitch Channel Joined",
+  "NodeGroupName": "Twitch",
+  "NodeBlockType": "event",
+  "NodeDescription": "This event trigger when your bot join a twitch channel",
+  "InParameters": {
+    "twitch": {
+      "Id": "3ced45e3-a210-4683-8b18-92ea97455952",
+      "Name": "twitch",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "channel": {
+      "Id": "ae534907-f001-4f9d-ae63-280fb9a89940",
+      "Name": "channel",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,69 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [
+    {
+      "Text": "How managed wallet work ?",
+      "Type": "open_url",
+      "Parameter": "#",
+      "TypeId": "NodeBlock.Engine.Attributes.NodeSpecialActionAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetManagedWallet",
+  "FriendlyName": "Get Personal Managed Wallet",
+  "NodeGroupName": "Ethereum Managed Wallet",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get an Ethereum Managed Wallet for on-chain operation from your created accounts on the Dapp",
+  "InParameters": {
+    "walletName": {
+      "Id": "5d6fc4d2-7fc1-4e52-9475-de3d9b0f9b9f",
+      "Name": "walletName",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "managedWallet": {
+      "Id": "d4274b0e-f2ed-482a-9d19-8c94647e3139",
+      "Name": "managedWallet",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.Wallet.ManagedWallet.ManagedWallet, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "address": {
+      "Id": "97820bbf-5bdb-4f6e-8216-61cb7e4f092c",
+      "Name": "address",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": {
+    "Hidden": false,
+    "IsScriptInput": false,
+    "ScriptType": "lua",
+    "IsSecretInput": false,
+    "TypeId": "NodeBlock.Engine.Attributes.NodeIDEParametersAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+  }
+}

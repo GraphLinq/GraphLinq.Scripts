@@ -1,0 +1,76 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnDiscordChannelMessageNode",
+  "FriendlyName": "On Discord Channel Message",
+  "NodeGroupName": "Discord",
+  "NodeBlockType": "event",
+  "NodeDescription": "Trigger a event when receive a message in channel on Discord",
+  "InParameters": {
+    "discord": {
+      "Id": "bba3c814-44d1-42ab-b1e3-3af397ac49bf",
+      "Name": "discord",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Messaging.Nodes.Discord.DiscordConnector, NodeBlock.Plugin.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "channelId": {
+      "Id": "eddfd313-90e8-4d47-b7b8-349475b6b096",
+      "Name": "channelId",
+      "Value": null,
+      "ValueType": "System.UInt64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "guildId": {
+      "Id": "3a130443-67e6-4808-ac3a-f3084342d0ee",
+      "Name": "guildId",
+      "Value": null,
+      "ValueType": "System.UInt64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "channel": {
+      "Id": "8e4b07a3-556f-4836-ba08-ba4bdebbb388",
+      "Name": "channel",
+      "Value": null,
+      "ValueType": "System.UInt64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "message": {
+      "Id": "d5856b4d-3a41-42e0-abe2-a204c58baa3f",
+      "Name": "message",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

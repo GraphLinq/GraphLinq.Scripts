@@ -1,0 +1,56 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "100000000000000",
+  "SpecialActionsAttributes": [],
+  "CanExecute": false,
+  "CanBeExecuted": false,
+  "Graph": null,
+  "NodeType": "GetKeyItemNode",
+  "FriendlyName": "Get Key Item",
+  "NodeGroupName": "Storage",
+  "NodeBlockType": "function",
+  "NodeDescription": "Return a specific key from the Redis storage allocated for the graph execution",
+  "InParameters": {
+    "key": {
+      "Id": "46949e75-4c40-4745-a5f8-275b5316edbf",
+      "Name": "key",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "fromJson": {
+      "Id": "853b242b-efe1-4201-8358-85cdb0af92f9",
+      "Name": "fromJson",
+      "Value": null,
+      "ValueType": "System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "value": {
+      "Id": "a52304db-766b-496d-bcde-0e7746436e7c",
+      "Name": "value",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

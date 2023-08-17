@@ -1,0 +1,76 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnReactionRemovedNode",
+  "FriendlyName": "On Reaction Removed Message",
+  "NodeGroupName": "Discord",
+  "NodeBlockType": "event",
+  "NodeDescription": "Trigger a event when remove a reaction in message on Discord",
+  "InParameters": {
+    "discord": {
+      "Id": "8643fad7-ac6e-4abd-96ac-94f0eb871508",
+      "Name": "discord",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Messaging.Nodes.Discord.DiscordConnector, NodeBlock.Plugin.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "channelId": {
+      "Id": "c15d1266-7802-4297-ac0f-7a9f04d31480",
+      "Name": "channelId",
+      "Value": null,
+      "ValueType": "System.UInt64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "messageId": {
+      "Id": "692babb8-5073-4c19-947a-dea933e0f646",
+      "Name": "messageId",
+      "Value": null,
+      "ValueType": "System.UInt64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "emoteName": {
+      "Id": "bdfdef08-c7e2-42fc-b1be-2aac361d8c0e",
+      "Name": "emoteName",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "userId": {
+      "Id": "fc2f0cbc-f203-4655-aefa-57309bb902d7",
+      "Name": "userId",
+      "Value": null,
+      "ValueType": "System.UInt64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

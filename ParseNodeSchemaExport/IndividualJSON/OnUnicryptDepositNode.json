@@ -1,0 +1,96 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnUnicryptDepositNode",
+  "FriendlyName": "On Unicrypt Deposit",
+  "NodeGroupName": "Unicrypt",
+  "NodeBlockType": "event",
+  "NodeDescription": "Event that trigger when someone deposit lp in Unicrypt",
+  "InParameters": {
+    "ethereumConnection": {
+      "Id": "12552291-77d1-48b4-815c-7450b0a0832e",
+      "Name": "ethereumConnection",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "bscConnection": {
+      "Id": "ab10a1da-e33a-4ea3-b457-cbd20372f3be",
+      "Name": "bscConnection",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "lpToken": {
+      "Id": "ab9ee9d2-6561-43eb-a7f5-11bdf95ee340",
+      "Name": "lpToken",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "user": {
+      "Id": "d60d675d-3fb3-457c-b208-d724eefddf7c",
+      "Name": "user",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "amount": {
+      "Id": "436be7ce-3d70-4839-a2bd-fa9856c39f0a",
+      "Name": "amount",
+      "Value": null,
+      "ValueType": "System.Int64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "lockDate": {
+      "Id": "e5693803-9f7f-49da-920a-f1d88af842f5",
+      "Name": "lockDate",
+      "Value": null,
+      "ValueType": "System.Int64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "unlockDate": {
+      "Id": "63e937ff-80b3-4870-a5c4-ac9bfb68254f",
+      "Name": "unlockDate",
+      "Value": null,
+      "ValueType": "System.Int64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

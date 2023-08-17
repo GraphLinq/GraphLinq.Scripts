@@ -1,0 +1,35 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "TwitchOnConnected",
+  "FriendlyName": "On Twitch Connected",
+  "NodeGroupName": "Twitch",
+  "NodeBlockType": "event",
+  "NodeDescription": "This event allow you to do things after a twitch connection",
+  "InParameters": {
+    "twitch": {
+      "Id": "d598a6b3-883c-4657-9d8f-a61f7d015b23",
+      "Name": "twitch",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {},
+  "OutNode": null,
+  "IDEParameters": null
+}

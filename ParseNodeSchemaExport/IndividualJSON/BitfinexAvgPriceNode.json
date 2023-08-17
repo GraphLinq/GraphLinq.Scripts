@@ -1,0 +1,56 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "BitfinexAvgPriceNode",
+  "FriendlyName": "Get Bitfinex Average Price",
+  "NodeGroupName": "Bitfinex",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get the current average price on bitfinex for a symbol. Symbol example : tETHUSD or tBTCUSD",
+  "InParameters": {
+    "bitfinex": {
+      "Id": "4b6e20cc-263b-48c3-9c5c-e6bb64022874",
+      "Name": "bitfinex",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Exchange.Nodes.Bitfinex.BitfinexConnectorNode, NodeBlock.Plugin.Exchange, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "symbol": {
+      "Id": "319140ee-e19a-41d9-b64c-8125283fe381",
+      "Name": "symbol",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "averagePrice": {
+      "Id": "df0770ab-63c1-4094-a063-c48b0fb1149a",
+      "Name": "averagePrice",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

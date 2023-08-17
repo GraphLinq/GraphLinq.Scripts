@@ -1,0 +1,56 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": true,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "EachElementArrayNode",
+  "FriendlyName": "Each Element In Array",
+  "NodeGroupName": "Array",
+  "NodeBlockType": "function",
+  "NodeDescription": "Loop on all element in a array",
+  "InParameters": {
+    "array": {
+      "Id": "39080bfb-3f61-4ddc-9583-48db2586aecd",
+      "Name": "array",
+      "Value": null,
+      "ValueType": "System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "each": {
+      "Id": "038b4106-6404-4f59-9d7e-521429dc3028",
+      "Name": "each",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Node, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": true
+    },
+    "item": {
+      "Id": "931b2b62-4ed0-4119-9aca-65c984a96b5c",
+      "Name": "item",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

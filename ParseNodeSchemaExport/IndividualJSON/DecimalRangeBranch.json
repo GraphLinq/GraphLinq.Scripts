@@ -1,0 +1,76 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": false,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "DecimalRangeBranch",
+  "FriendlyName": "Decimal Range Branch",
+  "NodeGroupName": "Range Condition",
+  "NodeBlockType": "condition",
+  "NodeDescription": "Trigger a condition of a node execution based over a range of values (included in a min or max number)",
+  "InParameters": {
+    "value": {
+      "Id": "bd8acb66-77be-46b5-aeb6-f51dd65d0b18",
+      "Name": "value",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "rangeMax": {
+      "Id": "b026aa68-2978-4875-ae29-753ea65b6c6b",
+      "Name": "rangeMax",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "rangeMin": {
+      "Id": "3126fa35-8a4e-4cab-9a17-add093094ef2",
+      "Name": "rangeMin",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    ">= RangeMax": {
+      "Id": "ce354965-8670-46e1-b441-8b17d7c4601d",
+      "Name": ">= RangeMax",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Node, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": true
+    },
+    "<= RangeMin": {
+      "Id": "42721be4-6c8f-4aea-916e-278b4cbd385f",
+      "Name": "<= RangeMin",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Node, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": true
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

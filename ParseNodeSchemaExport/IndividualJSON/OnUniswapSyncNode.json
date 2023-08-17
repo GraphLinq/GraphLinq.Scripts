@@ -1,0 +1,66 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnUniswapSyncNode",
+  "FriendlyName": "On Uniswap Sync",
+  "NodeGroupName": "Uniswap",
+  "NodeBlockType": "event",
+  "NodeDescription": "Event that occurs on liquidity providers update on a specific contract address, returning the reserve of both token left in the pool",
+  "InParameters": {
+    "connection": {
+      "Id": "20c26c95-c9e2-4dcc-82c8-afac713af6f8",
+      "Name": "connection",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "contractAddress": {
+      "Id": "e1b1ec50-5515-43d8-bd85-7f9f85577dea",
+      "Name": "contractAddress",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "reserve0": {
+      "Id": "1dff82ce-c284-46ae-a873-4a708ec7e66e",
+      "Name": "reserve0",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "reserve1": {
+      "Id": "13939512-6b4d-40c1-978d-0aa06576b003",
+      "Name": "reserve1",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

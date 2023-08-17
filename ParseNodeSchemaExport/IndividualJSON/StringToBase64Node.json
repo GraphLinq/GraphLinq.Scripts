@@ -1,0 +1,46 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": false,
+  "Graph": null,
+  "NodeType": "StringToBase64Node",
+  "FriendlyName": "String to Base64",
+  "NodeGroupName": "Transformers",
+  "NodeBlockType": "function",
+  "NodeDescription": "Transform a clear string into a base64 string as output",
+  "InParameters": {
+    "string": {
+      "Id": "9fd5c362-f21d-4bb1-9351-cc59eb4b1e52",
+      "Name": "string",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "base64": {
+      "Id": "879c0021-f5cc-4830-9a22-7e9bc1bdd13c",
+      "Name": "base64",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

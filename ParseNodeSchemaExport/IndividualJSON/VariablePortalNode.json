@@ -1,0 +1,46 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": false,
+  "CanBeExecuted": false,
+  "Graph": null,
+  "NodeType": "VariablePortalNode",
+  "FriendlyName": "Variable Portal",
+  "NodeGroupName": "Base Variable",
+  "NodeBlockType": "function",
+  "NodeDescription": "Pass a variable from in to the out, it's used or organize your graph",
+  "InParameters": {
+    "in": {
+      "Id": "a10af6b1-1d54-4b89-835a-26225596592c",
+      "Name": "in",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "out": {
+      "Id": "7d157f7e-a81e-4baf-943a-b980b1dd5638",
+      "Name": "out",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

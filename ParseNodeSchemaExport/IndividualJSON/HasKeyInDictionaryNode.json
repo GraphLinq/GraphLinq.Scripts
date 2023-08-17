@@ -1,0 +1,66 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": false,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "HasKeyInDictionaryNode",
+  "FriendlyName": "Has Key In Dictionary",
+  "NodeGroupName": "Dictionary",
+  "NodeBlockType": "condition",
+  "NodeDescription": "Check if a key exist in the dictionary",
+  "InParameters": {
+    "dictionary": {
+      "Id": "2b306b7f-61f9-49eb-8e60-2cf2ce14c5b4",
+      "Name": "dictionary",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "key": {
+      "Id": "69ec38a6-b495-4406-b198-ae29314e75e7",
+      "Name": "key",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "true": {
+      "Id": "80b6008a-8ca2-4de9-9675-a7a518caec44",
+      "Name": "true",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Node, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": true
+    },
+    "false": {
+      "Id": "fb648b3c-3f3d-476f-b58d-ef40522fd464",
+      "Name": "false",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Node, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": true
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

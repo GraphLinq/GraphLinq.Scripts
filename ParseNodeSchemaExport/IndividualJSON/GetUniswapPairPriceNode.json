@@ -1,0 +1,56 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetUniswapPairPriceNode",
+  "FriendlyName": "Uniswap Get Pair Price",
+  "NodeGroupName": "Uniswap",
+  "NodeBlockType": "function",
+  "NodeDescription": "Return the pair price of an Uniswap pool as out parameters",
+  "InParameters": {
+    "pairAddress": {
+      "Id": "95d2ba55-6931-4e7f-9f0a-c774a2db89e3",
+      "Name": "pairAddress",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "token0Price": {
+      "Id": "a2bb4123-842b-4895-9625-7a88a8e21cfa",
+      "Name": "token0Price",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "token1Price": {
+      "Id": "67c0fea5-8d2d-4b72-b9e0-fd485ffd700b",
+      "Name": "token1Price",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

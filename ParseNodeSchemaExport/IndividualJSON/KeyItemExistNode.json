@@ -1,0 +1,56 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": false,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "KeyItemExistNode",
+  "FriendlyName": "Is Key Item Exist",
+  "NodeGroupName": "Storage",
+  "NodeBlockType": "function",
+  "NodeDescription": "Check if a specific key from the Redis storage exist",
+  "InParameters": {
+    "key": {
+      "Id": "efe38635-808b-4625-b139-653c9d73a360",
+      "Name": "key",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "true": {
+      "Id": "a45623ec-7b8d-4de5-9c01-f6d00077fd29",
+      "Name": "true",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Node, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": true
+    },
+    "false": {
+      "Id": "9a6f33c3-fe5c-4200-a1ff-e64a6bb0b924",
+      "Name": "false",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Node, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": true
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

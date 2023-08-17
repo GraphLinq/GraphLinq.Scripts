@@ -1,0 +1,56 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": false,
+  "CanBeExecuted": false,
+  "Graph": null,
+  "NodeType": "GetBodyParameterNode",
+  "FriendlyName": "Get Body Parameter",
+  "NodeGroupName": "Hosted API",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get a value from body parameters",
+  "InParameters": {
+    "requestContext": {
+      "Id": "75accd9f-d4fe-4e62-9ebe-601e17ceb711",
+      "Name": "requestContext",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.HostedAPI.RequestContext, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "key": {
+      "Id": "4403f505-69c2-4167-a9a0-89cca52c4b7d",
+      "Name": "key",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "value": {
+      "Id": "acb9a9a2-da96-4fe7-b4d3-dde7cb5d6503",
+      "Name": "value",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

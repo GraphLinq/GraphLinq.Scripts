@@ -1,0 +1,46 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": true,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "JsonHeaderNode",
+  "FriendlyName": "Array To JSON Body",
+  "NodeGroupName": "HTTP",
+  "NodeBlockType": "function",
+  "NodeDescription": "Convert the json data into a json for a http request.",
+  "InParameters": {
+    "json": {
+      "Id": "61459068-dc31-4d7e-8826-21fbc1e48fbd",
+      "Name": "json",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "httpContent": {
+      "Id": "6a671f53-5651-400b-95d2-3d66c5fb584d",
+      "Name": "httpContent",
+      "Value": null,
+      "ValueType": "System.Net.Http.HttpContent, System.Net.Http, Version=4.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+      "IsIn": false,
+      "IsDynamic": true,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

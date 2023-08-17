@@ -1,0 +1,35 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": false,
+  "CanBeExecuted": false,
+  "Graph": null,
+  "NodeType": "LongNode",
+  "FriendlyName": "Long",
+  "NodeGroupName": "Base Variable",
+  "NodeBlockType": "variable",
+  "NodeDescription": "The long data type is a 64-bit two's complement integer. The signed long has a minimum value of -263 and a maximum value of 263-1.",
+  "InParameters": {},
+  "OutParameters": {
+    "value": {
+      "Id": "9399a754-4a6f-4860-ae89-b7673001e448",
+      "Name": "value",
+      "Value": null,
+      "ValueType": "System.Int64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

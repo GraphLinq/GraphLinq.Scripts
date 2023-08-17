@@ -1,0 +1,86 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 1000,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnKrakenTickerUpdateNode",
+  "FriendlyName": "On Kraken Pair Ticker Update",
+  "NodeGroupName": "Kraken",
+  "NodeBlockType": "event",
+  "NodeDescription": "Get a event when the book ticker is updated on Kraken for a symbol. Symbol example : BTC/USD",
+  "InParameters": {
+    "kraken": {
+      "Id": "55feea5c-3c84-4fec-83e8-a2930373b4a4",
+      "Name": "kraken",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Exchange.Nodes.Kraken.KrakenConnectorNode, NodeBlock.Plugin.Exchange, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "symbol": {
+      "Id": "a8c9a3a7-353b-42db-9e5d-ecd31cf60d0b",
+      "Name": "symbol",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "bestAskPrice": {
+      "Id": "8727681a-5c77-454b-9ad2-b084c42d8dae",
+      "Name": "bestAskPrice",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "bestAskQuantity": {
+      "Id": "0a80ace1-6194-4614-8dcc-5220e749f6fe",
+      "Name": "bestAskQuantity",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "bestBidPrice": {
+      "Id": "53112cf4-1542-4349-a769-854e8af7c053",
+      "Name": "bestBidPrice",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "bestBidQuantity": {
+      "Id": "6a2c4a5c-a8c5-4baf-99a6-408dbe284fea",
+      "Name": "bestBidQuantity",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

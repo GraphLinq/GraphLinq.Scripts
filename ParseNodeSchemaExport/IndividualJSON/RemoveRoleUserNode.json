@@ -1,0 +1,65 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "RemoveRoleUserNode",
+  "FriendlyName": "Remove Role User",
+  "NodeGroupName": "Discord",
+  "NodeBlockType": "function",
+  "NodeDescription": "Remove role for some user",
+  "InParameters": {
+    "discord": {
+      "Id": "01021e93-03c4-45a4-b4d8-3d84534b597f",
+      "Name": "discord",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Messaging.Nodes.Discord.DiscordConnector, NodeBlock.Plugin.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "guildId": {
+      "Id": "c2e967cf-49d9-44b9-8e35-285ab8eafb83",
+      "Name": "guildId",
+      "Value": null,
+      "ValueType": "System.UInt64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "userId": {
+      "Id": "d0044db6-729e-453b-8f6a-b45d974f2828",
+      "Name": "userId",
+      "Value": null,
+      "ValueType": "System.UInt64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "roleName": {
+      "Id": "6053b6a3-4746-4d0f-9656-72f97ea64492",
+      "Name": "roleName",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {},
+  "OutNode": null,
+  "IDEParameters": null
+}

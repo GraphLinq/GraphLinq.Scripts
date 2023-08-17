@@ -1,0 +1,66 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 600000,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetTotalLiquidityLockedUnicryptNode",
+  "FriendlyName": "Get Unicrypt Total Locked Liquidity",
+  "NodeGroupName": "Unicrypt",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get the total liquidity locked on Unicrypt",
+  "InParameters": {
+    "connection": {
+      "Id": "a8b4204f-4c2c-4c68-a2d0-1db043878ef1",
+      "Name": "connection",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "address": {
+      "Id": "b0671812-8547-438a-8715-296b99edb76a",
+      "Name": "address",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "totalLockedLiquidityUSD": {
+      "Id": "fbc36a3a-92e0-41f0-b634-6069023314f3",
+      "Name": "totalLockedLiquidityUSD",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "pairCount": {
+      "Id": "626de54a-e100-404e-a499-146d9fd4e1d8",
+      "Name": "pairCount",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,56 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetTokenSupplyByContractNode",
+  "FriendlyName": "Get ERC-20 Token Supply",
+  "NodeGroupName": "Avalanche.SnowTrace",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get ERC-20 Token Supply From Contract",
+  "InParameters": {
+    "snowtraceConnection": {
+      "Id": "0f97e9ed-1a18-4edd-b8bb-dacb34aa7aeb",
+      "Name": "snowtraceConnection",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Avalanche.Nodes.SnowTrace.SnowTraceConnectorNode, NodeBlock.Plugin.Avalanche, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "contractAddress": {
+      "Id": "9e3cc95b-1837-4140-bc86-32b97e5130fd",
+      "Name": "contractAddress",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "totalSupply": {
+      "Id": "240e4de4-75ba-4945-b1a9-875d4771aee2",
+      "Name": "totalSupply",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

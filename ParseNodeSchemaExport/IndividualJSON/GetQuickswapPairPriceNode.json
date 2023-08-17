@@ -1,0 +1,56 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetQuickswapPairPriceNode",
+  "FriendlyName": "Get Quickswap Pair Price",
+  "NodeGroupName": "Quickswap",
+  "NodeBlockType": "function",
+  "NodeDescription": "Return the pair price of an Quickswap pool as out parameters",
+  "InParameters": {
+    "pairAddress": {
+      "Id": "5152fece-c6d9-44b2-8d9d-76ff00bd6bcf",
+      "Name": "pairAddress",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "token0Price": {
+      "Id": "469922ff-0342-43d3-8130-45b494fdef78",
+      "Name": "token0Price",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "token1Price": {
+      "Id": "2642b366-6f1c-4b79-84a2-dbeb31edb10c",
+      "Name": "token1Price",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,93 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [
+    {
+      "Text": "Go to mxc api #market-data",
+      "Type": "open_url",
+      "Parameter": "https://mxcdevelop.github.io/APIDoc/open.api.v2.en.html#market-data",
+      "TypeId": "NodeBlock.Engine.Attributes.NodeSpecialActionAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetMxcPriceNode",
+  "FriendlyName": "Get MXC Price",
+  "NodeGroupName": "MXC",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get the current price on MXC for a symbol. Symbol example : ETH_USDT",
+  "InParameters": {
+    "mxc": {
+      "Id": "802217be-45b9-4678-9a41-03ed1a5ec681",
+      "Name": "mxc",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Exchange.Nodes.MXC.MxcConnectorNode, NodeBlock.Plugin.Exchange, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "symbol": {
+      "Id": "8d45e0c0-a86c-43d5-9f24-d09b71c7486f",
+      "Name": "symbol",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "bid_price": {
+      "Id": "68401263-02d2-4370-a496-a22632984baa",
+      "Name": "bid_price",
+      "Value": null,
+      "ValueType": "System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "bid_quantity": {
+      "Id": "2e11fd39-98c3-4965-aabd-0d6ea996d642",
+      "Name": "bid_quantity",
+      "Value": null,
+      "ValueType": "System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "ask_price": {
+      "Id": "54093c0c-90f6-4dc3-8eac-f4a353ea72e8",
+      "Name": "ask_price",
+      "Value": null,
+      "ValueType": "System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "ask_quantity": {
+      "Id": "f4c42b54-d026-4e1e-9b01-c90815dbb1c0",
+      "Name": "ask_quantity",
+      "Value": null,
+      "ValueType": "System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

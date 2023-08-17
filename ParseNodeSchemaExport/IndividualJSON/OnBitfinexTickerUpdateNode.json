@@ -1,0 +1,66 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 1000,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnBitfinexTickerUpdateNode",
+  "FriendlyName": "On Bitfinex Pair Ticker Update",
+  "NodeGroupName": "Bitfinex",
+  "NodeBlockType": "event",
+  "NodeDescription": "Get a event when the book ticker is updated on Bitfinex for a symbol",
+  "InParameters": {
+    "bitfinex": {
+      "Id": "2da025c1-db59-4ca3-898e-5e7f8ede77d9",
+      "Name": "bitfinex",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Exchange.Nodes.Bitfinex.BitfinexConnectorNode, NodeBlock.Plugin.Exchange, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "symbol": {
+      "Id": "5e47aacb-b997-4ac6-b663-94cd81b7bdd2",
+      "Name": "symbol",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "bestPrice": {
+      "Id": "7dd177b7-f706-4323-9a47-632a454449a3",
+      "Name": "bestPrice",
+      "Value": null,
+      "ValueType": "System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "bestQuantity": {
+      "Id": "4e5942e4-e305-4a3b-a19e-1a3128589a09",
+      "Name": "bestQuantity",
+      "Value": null,
+      "ValueType": "System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

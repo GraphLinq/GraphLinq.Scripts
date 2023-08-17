@@ -1,0 +1,86 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "BinancePlaceMarketBuyOrderNode",
+  "FriendlyName": "Place Market Buy Order",
+  "NodeGroupName": "Binance",
+  "NodeBlockType": "function",
+  "NodeDescription": "Allows you to place a market buy order on binance. example result : true for success order and false for fail",
+  "InParameters": {
+    "connection": {
+      "Id": "184cfa0d-cb5f-4b2b-a182-aa3d6b78d7fd",
+      "Name": "connection",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Exchange.Nodes.Binance.BinanceConnectorNode, NodeBlock.Plugin.Exchange, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "symbol": {
+      "Id": "6b8874d5-9dd7-4a89-b9d6-b9ebbeb892c9",
+      "Name": "symbol",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "quantity": {
+      "Id": "770e7d72-0877-4160-a54e-565b4a65dc03",
+      "Name": "quantity",
+      "Value": null,
+      "ValueType": "System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "orderId": {
+      "Id": "490b5976-f7b5-4731-9b4e-fd1ff3304be5",
+      "Name": "orderId",
+      "Value": null,
+      "ValueType": "System.Int64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "price": {
+      "Id": "be853eae-d549-4ef9-af42-d4f38a69c633",
+      "Name": "price",
+      "Value": null,
+      "ValueType": "System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "result": {
+      "Id": "d28c4e68-b808-4e86-a03f-8760d0284a74",
+      "Name": "result",
+      "Value": null,
+      "ValueType": "System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,35 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": false,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "CompleteRequestContextNode",
+  "FriendlyName": "Complete Request Context",
+  "NodeGroupName": "Hosted API",
+  "NodeBlockType": "function",
+  "NodeDescription": "Send the response for the request context of a endpoint call",
+  "InParameters": {
+    "requestContext": {
+      "Id": "e94fa01c-139f-443a-bc5d-45607edc6749",
+      "Name": "requestContext",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.HostedAPI.RequestContext, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {},
+  "OutNode": null,
+  "IDEParameters": null
+}

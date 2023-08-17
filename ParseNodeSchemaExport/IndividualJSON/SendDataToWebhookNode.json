@@ -1,0 +1,45 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": true,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "SendDataToWebhookNode",
+  "FriendlyName": "Send Data to Webhook",
+  "NodeGroupName": "Data",
+  "NodeBlockType": "function",
+  "NodeDescription": "Send data parameters as JSON to the url specified",
+  "InParameters": {
+    "url": {
+      "Id": "395eb4db-92c8-4fe7-80f2-94d3b1f5d805",
+      "Name": "url",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "data": {
+      "Id": "cae7ea18-ae5c-49bb-b8c6-b09e14605e35",
+      "Name": "data",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {},
+  "OutNode": null,
+  "IDEParameters": null
+}

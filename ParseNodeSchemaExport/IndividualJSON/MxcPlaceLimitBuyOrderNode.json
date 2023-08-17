@@ -1,0 +1,93 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [
+    {
+      "Text": "Go to mxc api #place_order",
+      "Type": "open_url",
+      "Parameter": "https://mxcdevelop.github.io/APIDoc/open.api.v2.en.html#place-ordere",
+      "TypeId": "NodeBlock.Engine.Attributes.NodeSpecialActionAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "MxcPlaceLimitBuyOrderNode",
+  "FriendlyName": "Place Limit Buy Order",
+  "NodeGroupName": "MXC",
+  "NodeBlockType": "function",
+  "NodeDescription": "Allows you to place a limit buy order on mxc. example result : true for success order and false for fail",
+  "InParameters": {
+    "connection": {
+      "Id": "ab76e772-2e7e-4764-bfc9-0d039842f308",
+      "Name": "connection",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Exchange.Nodes.MXC.MxcConnectorNode, NodeBlock.Plugin.Exchange, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "symbol": {
+      "Id": "b331d88a-72d2-4c19-ade4-2337c46ef455",
+      "Name": "symbol",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "quantity": {
+      "Id": "18b41782-fcca-46db-90ed-8e8f1c85c4c5",
+      "Name": "quantity",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "price": {
+      "Id": "f254e233-226b-4c50-a4c3-cd2f10200d01",
+      "Name": "price",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "orderId": {
+      "Id": "3b490d69-ae04-4f80-a9ba-e18cba85a47a",
+      "Name": "orderId",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "result": {
+      "Id": "d0598bd9-62fa-462c-adc3-b9929a748f2c",
+      "Name": "result",
+      "Value": null,
+      "ValueType": "System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

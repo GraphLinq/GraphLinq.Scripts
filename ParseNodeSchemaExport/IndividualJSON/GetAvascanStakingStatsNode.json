@@ -1,0 +1,95 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetAvascanStakingStatsNode",
+  "FriendlyName": "Get Avascan Staking Stats",
+  "NodeGroupName": "Avalanche.Avascan",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get Staking Stats From Avascan",
+  "InParameters": {},
+  "OutParameters": {
+    "totalValidator": {
+      "Id": "28df79ed-719f-4d34-8416-022414a75822",
+      "Name": "totalValidator",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "totalDelegation": {
+      "Id": "afa49977-c1f9-414d-863d-916abf7f21b2",
+      "Name": "totalDelegation",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "totalStake": {
+      "Id": "0626c3d0-f182-4511-88e5-87b99156256c",
+      "Name": "totalStake",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "totalValidationStake": {
+      "Id": "9e6a537b-b84f-4765-97da-915c3e92db02",
+      "Name": "totalValidationStake",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "totalDelegatedStake": {
+      "Id": "2471fbfc-0743-4b23-86b8-e31656949cfc",
+      "Name": "totalDelegatedStake",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "stakingReward": {
+      "Id": "765691ab-1195-411d-b24b-de9be9b7a497",
+      "Name": "stakingReward",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "stakingRatio": {
+      "Id": "da5c4a2f-ca39-4feb-9fab-a5d7cb43abb0",
+      "Name": "stakingRatio",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,56 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "EthConnection",
+  "FriendlyName": "Ethereum Connector",
+  "NodeGroupName": "Blockchain.Ethereum",
+  "NodeBlockType": "connector",
+  "NodeDescription": "Connection to the Ethereum network, can be used as Managed connection (without in parameters) or with your own node",
+  "InParameters": {
+    "url": {
+      "Id": "84cbf947-482e-4c5a-9166-2611233f2de7",
+      "Name": "url",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "socketUrl": {
+      "Id": "c886e682-6aaf-449d-b409-f079d157b6ea",
+      "Name": "socketUrl",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "connection": {
+      "Id": "bcb49d69-26aa-4797-a350-16eb85757414",
+      "Name": "connection",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.EthConnection, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

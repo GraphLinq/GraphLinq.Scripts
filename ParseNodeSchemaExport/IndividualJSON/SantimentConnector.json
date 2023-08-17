@@ -1,0 +1,60 @@
+{
+  "Client": null,
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [
+    {
+      "Text": "Go to Santiment Website",
+      "Type": "open_url",
+      "Parameter": "https://app.santiment.net/",
+      "TypeId": "NodeBlock.Engine.Attributes.NodeSpecialActionAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "SantimentConnector",
+  "FriendlyName": "Santiment Connector",
+  "NodeGroupName": "Santiment",
+  "NodeBlockType": "connector",
+  "NodeDescription": "Setup a connector for Santiment API",
+  "InParameters": {
+    "apiKey": {
+      "Id": "b41f70ef-5d9b-49df-96e5-0adfb502c968",
+      "Name": "apiKey",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "santiment": {
+      "Id": "ab09cb8b-ec44-442c-ad08-faeac39003a8",
+      "Name": "santiment",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.Santiment.Nodes.SantimentConnector, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": {
+    "Hidden": true,
+    "IsScriptInput": false,
+    "ScriptType": "lua",
+    "IsSecretInput": false,
+    "TypeId": "NodeBlock.Engine.Attributes.NodeIDEParametersAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+  }
+}

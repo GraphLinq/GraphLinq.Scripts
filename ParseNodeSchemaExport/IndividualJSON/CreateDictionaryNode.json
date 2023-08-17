@@ -1,0 +1,36 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "Array": null,
+  "CanExecute": true,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "CreateDictionaryNode",
+  "FriendlyName": "Create Dictionary",
+  "NodeGroupName": "Dictionary",
+  "NodeBlockType": "function",
+  "NodeDescription": "An Dictionary can store multiple variable in it with a key",
+  "InParameters": {},
+  "OutParameters": {
+    "dictionary": {
+      "Id": "ef5cd721-beec-4809-ae8e-7503139a9ecd",
+      "Name": "dictionary",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

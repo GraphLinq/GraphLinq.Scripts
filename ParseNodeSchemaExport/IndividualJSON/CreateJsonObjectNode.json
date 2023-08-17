@@ -1,0 +1,36 @@
+{
+  "JsonObject": null,
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": true,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "CreateJsonObjectNode",
+  "FriendlyName": "Create JSON Object",
+  "NodeGroupName": "JSON",
+  "NodeBlockType": "function",
+  "NodeDescription": "Create a new empty JSON object",
+  "InParameters": {},
+  "OutParameters": {
+    "jsonObject": {
+      "Id": "ac32e33b-3ab0-44f6-ab8f-ff28d4438a77",
+      "Name": "jsonObject",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

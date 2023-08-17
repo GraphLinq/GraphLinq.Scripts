@@ -1,0 +1,96 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": false,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "DecimalBranch",
+  "FriendlyName": "Decimal Branch",
+  "NodeGroupName": "Base Condition",
+  "NodeBlockType": "condition",
+  "NodeDescription": "Trigger different node path on a condition based on a decimal variable value state (equals to, greater or equals, lower then, lower or equals..).",
+  "InParameters": {
+    "valueA": {
+      "Id": "205256dd-9536-42ed-81b0-9a609c317555",
+      "Name": "valueA",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "valueB": {
+      "Id": "bd86be48-e7d1-4000-a445-7e49008278f3",
+      "Name": "valueB",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    ">": {
+      "Id": "1349bac3-70a3-4156-b415-4f9da7cc2a7d",
+      "Name": ">",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Node, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": true
+    },
+    ">=": {
+      "Id": "fa4d4eff-06a0-427a-8709-1fb3aed3da69",
+      "Name": ">=",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Node, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": true
+    },
+    "==": {
+      "Id": "3b884aa1-4d24-4be3-896d-27d79c866658",
+      "Name": "==",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Node, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": true
+    },
+    "<=": {
+      "Id": "0243ce38-50c2-4fd5-bb35-4c9cee164874",
+      "Name": "<=",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Node, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": true
+    },
+    "<": {
+      "Id": "72c23d80-39ef-4280-a83b-21fef6b93402",
+      "Name": "<",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Node, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": true
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,57 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "ERC20Token": null,
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "DeployERC20Node",
+  "FriendlyName": "Deploy ERC20 Token",
+  "NodeGroupName": "Blockchain.Ethereum.ERC20",
+  "NodeBlockType": "deployer",
+  "NodeDescription": "Deploy the ERC20 token",
+  "InParameters": {
+    "wallet": {
+      "Id": "24b9fba4-cd08-48ce-a185-0a2045f6765f",
+      "Name": "wallet",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.Wallet.ManagedWallet.ManagedWallet, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "erc20": {
+      "Id": "da3bb459-fd82-4802-9f2e-616119fd7df1",
+      "Name": "erc20",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.Eth.CoinCreator.Models.ERC20CreatorModel, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "contractAddress": {
+      "Id": "df918f80-72c0-4e04-9819-856c6acc82b5",
+      "Name": "contractAddress",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

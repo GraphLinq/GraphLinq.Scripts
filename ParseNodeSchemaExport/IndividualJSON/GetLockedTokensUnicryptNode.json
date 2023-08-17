@@ -1,0 +1,66 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetLockedTokensUnicryptNode",
+  "FriendlyName": "Get Unicrypt Locked Tokens",
+  "NodeGroupName": "Unicrypt",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get all tokens locked in a unicrypt locker",
+  "InParameters": {
+    "connection": {
+      "Id": "43b7edc8-4676-452b-b966-9cdb26db68c7",
+      "Name": "connection",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "address": {
+      "Id": "59ec04c4-e17b-48d7-b305-c780cf441a1e",
+      "Name": "address",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "lpTokenAddress": {
+      "Id": "6dc583a0-be12-410b-8139-01c6ad6626eb",
+      "Name": "lpTokenAddress",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "lockedTokenArray": {
+      "Id": "03244a06-86dc-4bf0-82cd-28652a8e8a5b",
+      "Name": "lockedTokenArray",
+      "Value": null,
+      "ValueType": "System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,57 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "Mail": null,
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "CreateSMTPMailNode",
+  "FriendlyName": "Create SMTP Mail",
+  "NodeGroupName": "SMTP",
+  "NodeBlockType": "function",
+  "NodeDescription": "Create a new smtp mail instance",
+  "InParameters": {
+    "subject": {
+      "Id": "7934ba68-eb4e-4dce-9a4d-6904e6ee63a7",
+      "Name": "subject",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "body": {
+      "Id": "991247d4-a98e-4e18-bed3-0e3b79e1c782",
+      "Name": "body",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "mail": {
+      "Id": "fa9d07e1-f10d-4708-9249-8f010b9a2538",
+      "Name": "mail",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Messaging.Nodes.SMTP.CreateSMTPMailNode, NodeBlock.Plugin.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

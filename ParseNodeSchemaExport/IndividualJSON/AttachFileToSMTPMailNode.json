@@ -1,0 +1,66 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "AttachFileToSMTPMailNode",
+  "FriendlyName": "Attach File SMTP Mail",
+  "NodeGroupName": "SMTP",
+  "NodeBlockType": "function",
+  "NodeDescription": "Attach a file to smtp mail",
+  "InParameters": {
+    "mail": {
+      "Id": "0faf4fbc-2663-484b-9f29-beb1700d390f",
+      "Name": "mail",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Messaging.Nodes.SMTP.CreateSMTPMailNode, NodeBlock.Plugin.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "file": {
+      "Id": "bc599b6d-9ebe-4b4a-ae19-372d6e81b6db",
+      "Name": "file",
+      "Value": null,
+      "ValueType": "System.Byte[], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "fileName": {
+      "Id": "f24d1619-ba14-45e0-b32e-57cb0252d0d9",
+      "Name": "fileName",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "mailOut": {
+      "Id": "1748d908-8a7e-4ea0-9dc7-a88cc29efb75",
+      "Name": "mailOut",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Messaging.Nodes.SMTP.CreateSMTPMailNode, NodeBlock.Plugin.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

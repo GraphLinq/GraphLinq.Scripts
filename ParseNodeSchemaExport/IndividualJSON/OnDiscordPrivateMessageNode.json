@@ -1,0 +1,76 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnDiscordPrivateMessageNode",
+  "FriendlyName": "On Discord Private Message",
+  "NodeGroupName": "Discord",
+  "NodeBlockType": "event",
+  "NodeDescription": "Trigger a event when you receive a private message on Discord",
+  "InParameters": {
+    "discord": {
+      "Id": "92f94ddc-41e9-4fad-b39d-70b16db43411",
+      "Name": "discord",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Messaging.Nodes.Discord.DiscordConnector, NodeBlock.Plugin.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "from": {
+      "Id": "8369b470-363c-4f84-be76-9afe2752c5ee",
+      "Name": "from",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "message": {
+      "Id": "4208df5e-f5f8-4666-861d-f26fa7299052",
+      "Name": "message",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "messageId": {
+      "Id": "9845a5fe-6b4a-493e-b1ae-e206b3039026",
+      "Name": "messageId",
+      "Value": null,
+      "ValueType": "System.UInt64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "author": {
+      "Id": "b472f37a-0363-41b8-9609-65fdd56373ad",
+      "Name": "author",
+      "Value": null,
+      "ValueType": "Discord.WebSocket.SocketUser, Discord.Net.WebSocket, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

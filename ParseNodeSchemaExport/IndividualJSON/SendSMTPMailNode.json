@@ -1,0 +1,65 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "SendSMTPMailNode",
+  "FriendlyName": "Send SMTP Mail",
+  "NodeGroupName": "SMTP",
+  "NodeBlockType": "function",
+  "NodeDescription": "Send a mail with a smtp connector",
+  "InParameters": {
+    "smtp": {
+      "Id": "f7c2ff90-9d82-434d-ba3c-45fdf20288c1",
+      "Name": "smtp",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Messaging.Nodes.SMTP.SMTPConnectorNode, NodeBlock.Plugin.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "mail": {
+      "Id": "91971bcd-9286-4a1c-8ae8-9fecb89166d6",
+      "Name": "mail",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Messaging.Nodes.SMTP.CreateSMTPMailNode, NodeBlock.Plugin.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "from": {
+      "Id": "5b3fd2c2-05a5-4f45-8368-f785dbe09556",
+      "Name": "from",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "to": {
+      "Id": "ea11b6b3-d454-4bda-b8d1-d4646f9efc07",
+      "Name": "to",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {},
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,46 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetERC20TokenHoldersNode",
+  "FriendlyName": "Get ERC20 Holders",
+  "NodeGroupName": "Blockchain.Ethereum.ERC20",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get the number of holders for a ERC20",
+  "InParameters": {
+    "tokenContract": {
+      "Id": "6d54f181-faef-43dc-ab9b-ced98847f099",
+      "Name": "tokenContract",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "holders": {
+      "Id": "8d59387a-2e49-49d6-a001-508c3d9bf71a",
+      "Name": "holders",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,66 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": true,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "AddCSVRowValue",
+  "FriendlyName": "Add CSV Row Value",
+  "NodeGroupName": "CSV",
+  "NodeBlockType": "function",
+  "NodeDescription": "Add a value to a csv row",
+  "InParameters": {
+    "row": {
+      "Id": "ca181ef9-465d-4087-a8c1-b537101a8ccb",
+      "Name": "row",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Nodes.CSV.CreateCSVRowNode, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "name": {
+      "Id": "cf0b7256-983e-4e4b-9a6b-7a0ed71ce448",
+      "Name": "name",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "value": {
+      "Id": "3b77c3a3-bf8a-4b89-a534-5ec7a4bdb2b9",
+      "Name": "value",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "rowOut": {
+      "Id": "1c60f626-28cf-400f-87a3-bf546ab24874",
+      "Name": "rowOut",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Nodes.CSV.CreateCSVRowNode, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": true,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,67 @@
+{
+  "ContentType": "application/json",
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": true,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "AddAPIEndpointNode",
+  "FriendlyName": "Add API Endpoint",
+  "NodeGroupName": "Hosted API",
+  "NodeBlockType": "function",
+  "NodeDescription": "Add new endpoint to a Hosted API",
+  "InParameters": {
+    "hostedAPI": {
+      "Id": "31bee129-52c3-480b-ae56-7100cd054938",
+      "Name": "hostedAPI",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.HostedAPI.HostedGraphAPI, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "path": {
+      "Id": "b611b574-fe89-460e-9533-fb18bfab7bdf",
+      "Name": "path",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "file": {
+      "Id": "eaae65e0-a434-484e-924d-14641ce978e4",
+      "Name": "file",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "endpoint": {
+      "Id": "f9b1e96f-c376-49e8-90e2-1f2acaf733ff",
+      "Name": "endpoint",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.HostedAPI.HostedEndpoint, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

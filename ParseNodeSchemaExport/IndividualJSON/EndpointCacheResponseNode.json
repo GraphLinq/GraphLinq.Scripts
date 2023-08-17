@@ -1,0 +1,45 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": true,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "EndpointCacheResponseNode",
+  "FriendlyName": "Add Endpoint Cache",
+  "NodeGroupName": "Hosted API",
+  "NodeBlockType": "function",
+  "NodeDescription": "Add a cache for the response of the endpoint",
+  "InParameters": {
+    "endpoint": {
+      "Id": "523967ba-0c4f-4885-9245-dfd3b12a7bed",
+      "Name": "endpoint",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "ttl": {
+      "Id": "67d7326e-174f-47c8-9d7b-1506973253a5",
+      "Name": "ttl",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {},
+  "OutNode": null,
+  "IDEParameters": null
+}

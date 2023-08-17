@@ -1,0 +1,46 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetTotalAvaxOnCchainNode",
+  "FriendlyName": "Get Total AVAX on C-Chain",
+  "NodeGroupName": "Avalanche.SnowTrace",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get Total Supply of AVAX on the Avalanche C-Chain",
+  "InParameters": {
+    "snowtraceConnection": {
+      "Id": "2400b87c-4b78-426c-a67a-84b65da85c1a",
+      "Name": "snowtraceConnection",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Avalanche.Nodes.SnowTrace.SnowTraceConnectorNode, NodeBlock.Plugin.Avalanche, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "totalSupply": {
+      "Id": "758d8f45-a9a8-42c6-b263-8c3ede3504b9",
+      "Name": "totalSupply",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

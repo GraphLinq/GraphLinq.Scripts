@@ -1,0 +1,145 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetAvascanGlobalStatsNode",
+  "FriendlyName": "Get Avascan Global Stats",
+  "NodeGroupName": "Avalanche.Avascan",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get Global Stats From Avascan",
+  "InParameters": {},
+  "OutParameters": {
+    "blockchains": {
+      "Id": "d65818ce-54ea-468f-938e-084fb3131be2",
+      "Name": "blockchains",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "validators": {
+      "Id": "0bb800a3-3abf-4772-a285-30437743305b",
+      "Name": "validators",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "stakingRatio": {
+      "Id": "8b611731-5373-4914-8c4e-284e740bf2e9",
+      "Name": "stakingRatio",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "stakingRewards": {
+      "Id": "5ad2963a-144d-4a8d-bcbb-e929dac6c77b",
+      "Name": "stakingRewards",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "price": {
+      "Id": "17d32b78-3af3-4b00-831c-771833478563",
+      "Name": "price",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "marketcapByCirculatingSupply": {
+      "Id": "b0d0b54e-75e5-4f18-a817-f44fb1ce6647",
+      "Name": "marketcapByCirculatingSupply",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "marketcapByTotalSupply": {
+      "Id": "7ecd96db-2126-40a2-8a88-74a85a225e43",
+      "Name": "marketcapByTotalSupply",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "circulatingSupply": {
+      "Id": "b648c9f8-311b-49fa-a0cd-d54b029011d9",
+      "Name": "circulatingSupply",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "lastTransactions24h": {
+      "Id": "002add07-6ebc-4105-a1c8-9b64a8f42fb1",
+      "Name": "lastTransactions24h",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "lastAvgTps24h": {
+      "Id": "1fa302b0-e19b-4776-8567-5a5d60d05e42",
+      "Name": "lastAvgTps24h",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "assetsAndTokens": {
+      "Id": "5fd5b0ab-0010-4a13-8be7-c4ee230622da",
+      "Name": "assetsAndTokens",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "burnedSinceLaunch": {
+      "Id": "ee592f63-2f3d-480e-be41-aa9ba40cd233",
+      "Name": "burnedSinceLaunch",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

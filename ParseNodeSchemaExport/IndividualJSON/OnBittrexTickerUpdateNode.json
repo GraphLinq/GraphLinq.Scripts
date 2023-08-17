@@ -1,0 +1,76 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 1000,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnBittrexTickerUpdateNode",
+  "FriendlyName": "On Bittrex Pair Ticker Update",
+  "NodeGroupName": "Bittrex",
+  "NodeBlockType": "event",
+  "NodeDescription": "Get a event when the book ticker is updated on Bittrex for a symbol",
+  "InParameters": {
+    "bittrex": {
+      "Id": "9c56859a-4f7c-489d-819d-98c1b095a23e",
+      "Name": "bittrex",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Exchange.Nodes.Bittrex.BittrexConnectorNode, NodeBlock.Plugin.Exchange, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "symbol": {
+      "Id": "3e5305a5-c88f-416d-8512-4c982eaa628e",
+      "Name": "symbol",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "bestAskPrice": {
+      "Id": "8e9409e0-2a6c-477f-a209-379a46e1d4a0",
+      "Name": "bestAskPrice",
+      "Value": null,
+      "ValueType": "System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "bestBidPrice": {
+      "Id": "685bec2c-8639-426b-b6b4-34ffd7363c1e",
+      "Name": "bestBidPrice",
+      "Value": null,
+      "ValueType": "System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "lastTradeRate": {
+      "Id": "2ec4dc2e-92b4-4437-aba0-7e073aa69331",
+      "Name": "lastTradeRate",
+      "Value": null,
+      "ValueType": "System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,35 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "ConvertNodeToDataNode",
+  "FriendlyName": "Convert To Data",
+  "NodeGroupName": "Data",
+  "NodeBlockType": "function",
+  "NodeDescription": "Convert output parameters to data parameters",
+  "InParameters": {},
+  "OutParameters": {
+    "data": {
+      "Id": "51a080c3-6e8e-4653-b3fb-82bf4c8fd008",
+      "Name": "data",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

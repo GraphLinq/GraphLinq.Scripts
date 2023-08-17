@@ -1,0 +1,45 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": true,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "JoinTwitchChannelNode",
+  "FriendlyName": "Join Twitch channel",
+  "NodeGroupName": "Twitch",
+  "NodeBlockType": "function",
+  "NodeDescription": "Join a twitch channel as a bot",
+  "InParameters": {
+    "twitch": {
+      "Id": "91abf8ca-82ff-4155-9ee6-1af5d0f8e24f",
+      "Name": "twitch",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "channel": {
+      "Id": "2b98aaed-d9d0-4fe5-8c91-356518f6ecb7",
+      "Name": "channel",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {},
+  "OutNode": null,
+  "IDEParameters": null
+}

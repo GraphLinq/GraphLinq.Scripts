@@ -1,0 +1,106 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 1000,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnCoinExTickerUpdateNode",
+  "FriendlyName": "On CoinEx Pair Ticker Update",
+  "NodeGroupName": "CoinEx",
+  "NodeBlockType": "event",
+  "NodeDescription": "Get a event when the kline is updated on coinEx for a symbol. Symbol example : ETHBTC",
+  "InParameters": {
+    "coinEx": {
+      "Id": "a8fdaca9-c9e6-4f01-8391-3f9d361e1947",
+      "Name": "coinEx",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Exchange.Nodes.CoinEx.CoinExConnectorNode, NodeBlock.Plugin.Exchange, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "symbol": {
+      "Id": "edfe7a30-b3f2-4572-afd8-c8d2d600584e",
+      "Name": "symbol",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "amount": {
+      "Id": "fd818b20-2aad-4df2-830d-d41a464cf28e",
+      "Name": "amount",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "open": {
+      "Id": "ec674f28-f23c-40c6-b304-a1d4e37f1fff",
+      "Name": "open",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "close": {
+      "Id": "5b99ef83-1cfb-43f7-8372-f3f3f6d7e6f1",
+      "Name": "close",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "low": {
+      "Id": "5f34520a-4585-4b44-8a0d-94ead98eb856",
+      "Name": "low",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "high": {
+      "Id": "6f1a2056-566e-4e5e-9637-a11ec5fa2ba8",
+      "Name": "high",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "volume": {
+      "Id": "ff4ca1d4-5023-4bf8-a3b3-501d8517f8e8",
+      "Name": "volume",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

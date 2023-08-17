@@ -1,0 +1,46 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnNewAvaxBlockEventNode",
+  "FriendlyName": "On Avalanche Block",
+  "NodeGroupName": "Blockchain.Avalanche",
+  "NodeBlockType": "event",
+  "NodeDescription": "Event that occurs everytime a new avalanche block is minted",
+  "InParameters": {
+    "connection": {
+      "Id": "57a4e4da-6a4f-44b7-b9b9-7a91f31e3750",
+      "Name": "connection",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "block": {
+      "Id": "3870bb34-8f68-4d9d-880d-c8aea179e306",
+      "Name": "block",
+      "Value": null,
+      "ValueType": "Nethereum.RPC.Eth.DTOs.Block, Nethereum.RPC, Version=3.8.0.0, Culture=neutral, PublicKeyToken=8768a594786aba4e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

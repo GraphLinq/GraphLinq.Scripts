@@ -1,0 +1,52 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetAuctionsNode",
+  "FriendlyName": "Get Rarible Auctions",
+  "NodeGroupName": "Rarible",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get auctions on Rarible",
+  "InParameters": {
+    "rarible": {
+      "Id": "72524f55-4e83-456d-bf21-186ed4019a15",
+      "Name": "rarible",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.Rarible.RaribleConnector, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "auctions": {
+      "Id": "23d81385-5fc6-49fa-8ebb-2108dd231923",
+      "Name": "auctions",
+      "Value": null,
+      "ValueType": "System.Collections.Generic.List`1[[NodeBlock.Plugin.Ethereum.Nodes.Rarible.Responses.AuctionItem, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": {
+    "Hidden": false,
+    "IsScriptInput": false,
+    "ScriptType": "lua",
+    "IsSecretInput": false,
+    "TypeId": "NodeBlock.Engine.Attributes.NodeIDEParametersAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+  }
+}

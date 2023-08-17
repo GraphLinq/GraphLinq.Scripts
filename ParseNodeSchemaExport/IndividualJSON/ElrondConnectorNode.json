@@ -1,0 +1,36 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "WebAPI": null,
+  "Graph": null,
+  "NodeType": "ElrondConnectorNode",
+  "FriendlyName": "Elrond Connector",
+  "NodeGroupName": "Blockchain.Elrond",
+  "NodeBlockType": "connector",
+  "NodeDescription": "Connection to the Elrond network",
+  "InParameters": {},
+  "OutParameters": {
+    "elrond": {
+      "Id": "7cdb466c-1ebd-4f92-82de-5d35bb95b2da",
+      "Name": "elrond",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.Elrond.ElrondConnectorNode, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

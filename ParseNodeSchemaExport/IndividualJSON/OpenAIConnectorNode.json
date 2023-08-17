@@ -1,0 +1,53 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [
+    {
+      "Text": "Open OpenAI Developer",
+      "Type": "open_url",
+      "Parameter": "https://platform.openai.com/docs/quickstart",
+      "TypeId": "NodeBlock.Engine.Attributes.NodeSpecialActionAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OpenAIConnectorNode",
+  "FriendlyName": "OpenAI Connector",
+  "NodeGroupName": "OpenAI",
+  "NodeBlockType": "connector",
+  "NodeDescription": "OpenAI connector, it allow you to interact with OpenAI API",
+  "InParameters": {
+    "openAIKey": {
+      "Id": "d76fd804-7de1-4d1e-9bdc-2a6474eed0fa",
+      "Name": "openAIKey",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "openAI": {
+      "Id": "2004ac5b-1ef6-4c44-b6fa-065905850f7b",
+      "Name": "openAI",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Messaging.Nodes.OpenAI.OpenAIConnectorNode, NodeBlock.Plugin.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

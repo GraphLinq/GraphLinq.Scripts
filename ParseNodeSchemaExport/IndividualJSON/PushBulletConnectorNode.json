@@ -1,0 +1,54 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [
+    {
+      "Text": "Go to PushBullet",
+      "Type": "open_url",
+      "Parameter": "https://www.pushbullet.com/#settings/account",
+      "TypeId": "NodeBlock.Engine.Attributes.NodeSpecialActionAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "Client": null,
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "PushBulletConnectorNode",
+  "FriendlyName": "PushBullet Connector",
+  "NodeGroupName": "PushBullet",
+  "NodeBlockType": "connector",
+  "NodeDescription": "PushBullet is a service that allow you to send push notification to your smartphone",
+  "InParameters": {
+    "apiKey": {
+      "Id": "6dad70db-3726-4426-a719-4dd152c83858",
+      "Name": "apiKey",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "pushBullet": {
+      "Id": "fa5eabff-0f33-4eb4-a7e2-89a5aeb13f82",
+      "Name": "pushBullet",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Messaging.Nodes.PushBullet.PushBulletConnectorNode, NodeBlock.Plugin.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

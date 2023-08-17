@@ -1,0 +1,53 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 1000,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [
+    {
+      "Text": "Go to mxc docs #request : sub.symbol",
+      "Type": "open_url",
+      "Parameter": "https://github.com/mxcdevelop/APIDoc/blob/master/websocket/spot/websocket-api.md",
+      "TypeId": "NodeBlock.Engine.Attributes.NodeSpecialActionAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnMxcGetLastTradeNode",
+  "FriendlyName": "On Mxc Get Last Trade Node",
+  "NodeGroupName": "MXC",
+  "NodeBlockType": "event",
+  "NodeDescription": "event that get the last transaction by a symbol. symbol example : ETH_USDT",
+  "InParameters": {
+    "symbol": {
+      "Id": "c00b9085-411f-499f-bbc2-d69cf3f737aa",
+      "Name": "symbol",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "trades": {
+      "Id": "88beb531-e198-42ea-83c2-1621603cebae",
+      "Name": "trades",
+      "Value": null,
+      "ValueType": "System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

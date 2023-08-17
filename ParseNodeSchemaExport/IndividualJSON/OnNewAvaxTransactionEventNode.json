@@ -1,0 +1,46 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnNewAvaxTransactionEventNode",
+  "FriendlyName": "On Avalanche Transaction",
+  "NodeGroupName": "Blockchain.Avalanche",
+  "NodeBlockType": "event",
+  "NodeDescription": "Event that occurs everytime a new avalanche transaction appears in the last network block",
+  "InParameters": {
+    "connection": {
+      "Id": "ae3b7b56-0b15-4770-9c1a-a820d211749b",
+      "Name": "connection",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "transactionHash": {
+      "Id": "08bdcbdf-d143-402f-84ee-53ead4a7e580",
+      "Name": "transactionHash",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

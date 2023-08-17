@@ -1,0 +1,45 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "TweetMessageNode",
+  "FriendlyName": "Tweet Message",
+  "NodeGroupName": "Twitter",
+  "NodeBlockType": "function",
+  "NodeDescription": "Tweet a message on Twitter",
+  "InParameters": {
+    "twitter": {
+      "Id": "0e15f36c-01f5-4218-83f5-e56be4fb5c59",
+      "Name": "twitter",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Messaging.Nodes.Twitter.TwitterConnector, NodeBlock.Plugin.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "message": {
+      "Id": "c11ff0ec-2bf2-4042-aa04-c3b86963e0fc",
+      "Name": "message",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {},
+  "OutNode": null,
+  "IDEParameters": null
+}

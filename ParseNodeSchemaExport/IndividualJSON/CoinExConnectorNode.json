@@ -1,0 +1,58 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "Client": null,
+  "SocketClient": null,
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "CoinExConnectorNode",
+  "FriendlyName": "CoinEx Connector",
+  "NodeGroupName": "CoinEx",
+  "NodeBlockType": "connector",
+  "NodeDescription": "CoinEx Connector, for retrieve your ApiKey and ApiSecret go to your CoinEx account and create them",
+  "InParameters": {
+    "apiKey": {
+      "Id": "84eb2a0a-c6df-4883-b427-7e5adb4a443e",
+      "Name": "apiKey",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "apiSecret": {
+      "Id": "5867ee92-79fe-4a5a-a3d9-83ec2d493924",
+      "Name": "apiSecret",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "coinEx": {
+      "Id": "86c50535-2c5e-4a45-92ca-586eae5814ab",
+      "Name": "coinEx",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Exchange.Nodes.CoinEx.CoinExConnectorNode, NodeBlock.Plugin.Exchange, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,66 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnPankakeSwapNewPairNode",
+  "FriendlyName": "On PancakeSwap New Pair",
+  "NodeGroupName": "PancakeSwap",
+  "NodeBlockType": "event",
+  "NodeDescription": "Event that occur when there is a new pair created over Pancake swap",
+  "InParameters": {
+    "connection": {
+      "Id": "f9bf9669-a03a-45b6-998b-2a124efdb7d3",
+      "Name": "connection",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "token0": {
+      "Id": "237a8c20-60d4-4ef4-ad18-0b32b671c2d0",
+      "Name": "token0",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "token1": {
+      "Id": "a293380d-3eb4-42a7-9a91-3e60c02ae743",
+      "Name": "token1",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "pair": {
+      "Id": "269111a0-952a-4cbf-851d-9255175797ff",
+      "Name": "pair",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

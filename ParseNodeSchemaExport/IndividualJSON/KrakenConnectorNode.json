@@ -1,0 +1,56 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "KrakenConnectorNode",
+  "FriendlyName": "Kraken Connector",
+  "NodeGroupName": "Kraken",
+  "NodeBlockType": "connector",
+  "NodeDescription": "Kraken connector",
+  "InParameters": {
+    "apiKey": {
+      "Id": "e6b8fa1a-f753-4524-b14a-11f981767e8d",
+      "Name": "apiKey",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "apiSecret": {
+      "Id": "f268f90b-8a0f-4e90-9b8c-08e4d580468b",
+      "Name": "apiSecret",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "kraken": {
+      "Id": "58ad5f02-5949-45c6-8357-452fcbf7482f",
+      "Name": "kraken",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Exchange.Nodes.Kraken.KrakenConnectorNode, NodeBlock.Plugin.Exchange, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

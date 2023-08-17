@@ -1,0 +1,46 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnEndpointRequestNode",
+  "FriendlyName": "On Endpoint Request",
+  "NodeGroupName": "Hosted API",
+  "NodeBlockType": "event",
+  "NodeDescription": "This event is called when there is a request on the given endpoint",
+  "InParameters": {
+    "endpoint": {
+      "Id": "4828ad07-712c-455d-9055-c3453eea05be",
+      "Name": "endpoint",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.HostedAPI.HostedEndpoint, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "requestContext": {
+      "Id": "6dc26c83-8ce5-4a1a-b971-931414329458",
+      "Name": "requestContext",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.HostedAPI.RequestContext, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

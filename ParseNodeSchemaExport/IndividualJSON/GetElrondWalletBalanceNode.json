@@ -1,0 +1,66 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetElrondWalletBalanceNode",
+  "FriendlyName": "Get Elrond Wallet Balance",
+  "NodeGroupName": "Blockchain.Elrond",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get the balance of an Elrond address",
+  "InParameters": {
+    "elrond": {
+      "Id": "3b8ed066-0a56-436d-a888-c0c8187adf49",
+      "Name": "elrond",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.Elrond.ElrondConnectorNode, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "address": {
+      "Id": "c603e70e-00c4-46a2-a731-0698a39a5778",
+      "Name": "address",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "balance": {
+      "Id": "3990b8c9-fb42-428f-9d5d-37a226e0eaec",
+      "Name": "balance",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "nonce": {
+      "Id": "6ecf458a-9030-4c2b-a5ae-8acfbab9f562",
+      "Name": "nonce",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

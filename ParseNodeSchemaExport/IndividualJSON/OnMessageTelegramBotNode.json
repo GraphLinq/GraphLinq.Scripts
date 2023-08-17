@@ -1,0 +1,76 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnMessageTelegramBotNode",
+  "FriendlyName": "On Telegram Message",
+  "NodeGroupName": "Telegram",
+  "NodeBlockType": "event",
+  "NodeDescription": "This event allow you to handle a message from Telegram in your graph",
+  "InParameters": {
+    "telegramBot": {
+      "Id": "44a93e84-5939-4658-abf0-39efb0352e0a",
+      "Name": "telegramBot",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "message": {
+      "Id": "e5d5710a-9609-463b-8215-c1c9f62485de",
+      "Name": "message",
+      "Value": null,
+      "ValueType": "Telegram.Bot.Types.Message, Telegram.Bot, Version=16.0.2.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "chatId": {
+      "Id": "693a687c-531d-4616-bdd5-d9e2f11b451f",
+      "Name": "chatId",
+      "Value": null,
+      "ValueType": "System.Int64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "fromId": {
+      "Id": "2359ed7f-f096-4dc4-8bc3-432b3901da9a",
+      "Name": "fromId",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "from": {
+      "Id": "aae030e2-42d4-47b2-86e8-e5b971534dc7",
+      "Name": "from",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

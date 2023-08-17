@@ -1,0 +1,96 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetLockedTokenParametersNode",
+  "FriendlyName": "Get Unicrypt Locked Token Parameters",
+  "NodeGroupName": "Unicrypt",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get parameters for locked token",
+  "InParameters": {
+    "lockedTokenObject": {
+      "Id": "472087ca-5a93-4c59-853c-f6d838d2abc1",
+      "Name": "lockedTokenObject",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "lockDate": {
+      "Id": "1d702e1e-3d5e-4ba2-b226-0a3599fe260d",
+      "Name": "lockDate",
+      "Value": null,
+      "ValueType": "System.Int64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "amount": {
+      "Id": "8324339f-70e5-49bd-8fc1-eb2de250ca32",
+      "Name": "amount",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "initialAmount": {
+      "Id": "53f198cd-a1b6-4b8e-98f2-3e7a05caa58c",
+      "Name": "initialAmount",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "unlockDate": {
+      "Id": "36d3f992-5e89-4a03-8fd6-6a957f0d2350",
+      "Name": "unlockDate",
+      "Value": null,
+      "ValueType": "System.Int64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "lockID": {
+      "Id": "d016146e-e1b1-4b99-b9b6-85f7609c89fe",
+      "Name": "lockID",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "owner": {
+      "Id": "57a1bfc8-e725-428a-8360-ff4457125ed6",
+      "Name": "owner",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

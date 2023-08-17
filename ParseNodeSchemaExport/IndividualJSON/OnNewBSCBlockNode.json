@@ -1,0 +1,46 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnNewBSCBlockNode",
+  "FriendlyName": "On Binance Smart Chain Block",
+  "NodeGroupName": "Blockchain.BSC",
+  "NodeBlockType": "event",
+  "NodeDescription": "Event that occurs everytime a new bsc block is minted",
+  "InParameters": {
+    "connection": {
+      "Id": "53181740-b4a6-4b5f-9054-f20dbdb79470",
+      "Name": "connection",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "block": {
+      "Id": "b190b2e8-346d-47dc-9f81-598ad36b70c3",
+      "Name": "block",
+      "Value": null,
+      "ValueType": "Nethereum.RPC.Eth.DTOs.Block, Nethereum.RPC, Version=3.8.0.0, Culture=neutral, PublicKeyToken=8768a594786aba4e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

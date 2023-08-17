@@ -1,0 +1,46 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "HostedAPI": null,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "ExposeAPIBlockNode",
+  "FriendlyName": "Expose API",
+  "NodeGroupName": "Hosted API",
+  "NodeBlockType": "connector",
+  "NodeDescription": "Expose a HTTP API for the graph, this will generate a random port and a random id in output",
+  "InParameters": {},
+  "OutParameters": {
+    "hostedAPI": {
+      "Id": "324dc9a5-8d07-4e67-81bb-b331a1c6d4ae",
+      "Name": "hostedAPI",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.HostedAPI.HostedGraphAPI, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "url": {
+      "Id": "8d964479-8b5d-41ec-9359-2c988cf4d4b1",
+      "Name": "url",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null,
+  "CanBeExecuted": false
+}

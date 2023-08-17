@@ -1,0 +1,35 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": false,
+  "CanBeExecuted": false,
+  "Graph": null,
+  "NodeType": "IntNode",
+  "FriendlyName": "Integer",
+  "NodeGroupName": "Base Variable",
+  "NodeBlockType": "variable",
+  "NodeDescription": "An integer format is a data type in computer programming. ... Integers represent whole units. Integers occupy less space in memory, but this space-saving feature limits the magnitude of the integer that can be stored.",
+  "InParameters": {},
+  "OutParameters": {
+    "value": {
+      "Id": "d504a2e4-0acb-492c-a102-1a6d1abdf279",
+      "Name": "value",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

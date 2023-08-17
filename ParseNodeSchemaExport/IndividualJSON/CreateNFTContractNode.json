@@ -1,0 +1,67 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "NFTModel": null,
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "CreateNFTContractNode",
+  "FriendlyName": "Create NFT Contract",
+  "NodeGroupName": "Blockchain.Ethereum.NFT",
+  "NodeBlockType": "deployer",
+  "NodeDescription": "Create a NFT contract ready for deployment for the Ethereum Network",
+  "InParameters": {
+    "ownerAddress": {
+      "Id": "1e9590ac-7207-414f-8fd5-11a78571a3e0",
+      "Name": "ownerAddress",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "name": {
+      "Id": "aeb15ea3-7880-4287-a23e-508946cf5bd2",
+      "Name": "name",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "symbol": {
+      "Id": "c4d84284-8fc5-4f67-9f35-d23fa5215926",
+      "Name": "symbol",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "nftModel": {
+      "Id": "4e29068d-6b10-4e2b-9fda-2ce9a88f5ef3",
+      "Name": "nftModel",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.Eth.NftCreator.Models.NFTCreatorModel, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

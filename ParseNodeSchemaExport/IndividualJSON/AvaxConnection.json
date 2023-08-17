@@ -1,0 +1,56 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "AvaxConnection",
+  "FriendlyName": "Avalanche Connector",
+  "NodeGroupName": "Blockchain.Avalanche",
+  "NodeBlockType": "connector",
+  "NodeDescription": "Connection to the Avalanche network, can be used as Managed connection (without in parameters) or with your own node",
+  "InParameters": {
+    "url": {
+      "Id": "521da246-8352-4a2a-9118-c7da2a9aa141",
+      "Name": "url",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "socketUrl": {
+      "Id": "dd0b636d-04b7-4cec-984b-5d009310f77b",
+      "Name": "socketUrl",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "connection": {
+      "Id": "7f3c9b03-decb-4678-b958-1e3db2de62b5",
+      "Name": "connection",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Avalanche.AvaxConnection, NodeBlock.Plugin.Avalanche, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

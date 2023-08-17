@@ -1,0 +1,56 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetAvaxBalanceByAddressNode",
+  "FriendlyName": "Get AVAX Balance Single Address",
+  "NodeGroupName": "Avalanche.SnowTrace",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get AVAX Balance for a single Address",
+  "InParameters": {
+    "snowtraceConnection": {
+      "Id": "082e38a8-de01-48d6-a525-86f9375d8df6",
+      "Name": "snowtraceConnection",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Avalanche.Nodes.SnowTrace.SnowTraceConnectorNode, NodeBlock.Plugin.Avalanche, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "walletAddress": {
+      "Id": "cf02ec1a-80c0-4f2d-b725-4251e9c14543",
+      "Name": "walletAddress",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "walletBalance": {
+      "Id": "62881839-bc06-40ca-b10a-f21a2b9c3c61",
+      "Name": "walletBalance",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

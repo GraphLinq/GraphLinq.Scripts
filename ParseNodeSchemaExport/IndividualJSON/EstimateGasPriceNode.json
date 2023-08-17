@@ -1,0 +1,46 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": false,
+  "Graph": null,
+  "NodeType": "EstimateGasPriceNode",
+  "FriendlyName": "Estimate Gas Price",
+  "NodeGroupName": "Blockchain.Ethereum",
+  "NodeBlockType": "function",
+  "NodeDescription": "Estimate the gas price from average of gas price from the previous block",
+  "InParameters": {
+    "ethConnection": {
+      "Id": "10901f2d-f712-4677-81e3-8eef60e32ace",
+      "Name": "ethConnection",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "gasPrice": {
+      "Id": "4adcf05d-c365-483b-b15d-9180b9e1cf41",
+      "Name": "gasPrice",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

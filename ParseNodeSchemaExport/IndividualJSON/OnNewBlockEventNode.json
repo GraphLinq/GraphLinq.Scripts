@@ -1,0 +1,46 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnNewBlockEventNode",
+  "FriendlyName": "On Ethereum Block",
+  "NodeGroupName": "Blockchain.Ethereum",
+  "NodeBlockType": "event",
+  "NodeDescription": "Event that occurs everytime a new ethereum block is minted",
+  "InParameters": {
+    "connection": {
+      "Id": "67aa650d-837a-491a-b480-08943693f7da",
+      "Name": "connection",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "block": {
+      "Id": "da41e0ad-025e-422a-9b3e-5edea57cd034",
+      "Name": "block",
+      "Value": null,
+      "ValueType": "Nethereum.RPC.Eth.DTOs.Block, Nethereum.RPC, Version=3.8.0.0, Culture=neutral, PublicKeyToken=8768a594786aba4e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

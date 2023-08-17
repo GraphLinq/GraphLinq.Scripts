@@ -1,0 +1,53 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [
+    {
+      "Text": "Talk to @BotFather",
+      "Type": "open_url",
+      "Parameter": "https://t.me/BotFather",
+      "TypeId": "NodeBlock.Engine.Attributes.NodeSpecialActionAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "TelegramBotInstanceNode",
+  "FriendlyName": "Telegram Bot",
+  "NodeGroupName": "Telegram",
+  "NodeBlockType": "connector",
+  "NodeDescription": "Telegram connector, to retrieve your AccessToken talk to BotFather to create a new bot",
+  "InParameters": {
+    "accessToken": {
+      "Id": "7376c88f-275b-4272-a629-761849c6cada",
+      "Name": "accessToken",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "telegramBot": {
+      "Id": "06a548f3-4472-4d44-9450-de17bf22ceb1",
+      "Name": "telegramBot",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Messaging.Nodes.Telegram.TelegramBotInstanceNode, NodeBlock.Plugin.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,58 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "Client": null,
+  "SocketClient": null,
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "BittrexConnectorNode",
+  "FriendlyName": "Bittrex Connector",
+  "NodeGroupName": "Bittrex",
+  "NodeBlockType": "connector",
+  "NodeDescription": "Bittrex Connector, for retrieve your ApiKey and ApiSecret go to your Bittrex account and create them",
+  "InParameters": {
+    "apiKey": {
+      "Id": "b17fcd3a-f45f-4d15-b0b8-379abd2fcb85",
+      "Name": "apiKey",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "apiSecret": {
+      "Id": "567f0fd7-b7c9-49b7-ae1d-ef558d51cdfb",
+      "Name": "apiSecret",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "bittrex": {
+      "Id": "536dbfa9-e487-4704-b9d6-b8cd96e99747",
+      "Name": "bittrex",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Exchange.Nodes.Bittrex.BittrexConnectorNode, NodeBlock.Plugin.Exchange, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

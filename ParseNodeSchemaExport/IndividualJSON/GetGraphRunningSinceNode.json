@@ -1,0 +1,35 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": false,
+  "CanBeExecuted": false,
+  "Graph": null,
+  "NodeType": "GetGraphRunningSinceNode",
+  "FriendlyName": "Get Graph Running Since Time",
+  "NodeGroupName": "Common",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get the time since the graph has been started",
+  "InParameters": {},
+  "OutParameters": {
+    "time": {
+      "Id": "790fb27c-386e-49bd-892f-a05905acc928",
+      "Name": "time",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

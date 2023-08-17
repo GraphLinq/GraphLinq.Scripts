@@ -1,0 +1,35 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": false,
+  "CanBeExecuted": false,
+  "Graph": null,
+  "NodeType": "GetTimestampMsNode",
+  "FriendlyName": "Get Milliseconds Timestamp",
+  "NodeGroupName": "Time",
+  "NodeBlockType": "function",
+  "NodeDescription": "Return the current milliseconds timestamp of the engine localtime",
+  "InParameters": {},
+  "OutParameters": {
+    "timestamp": {
+      "Id": "7e3db4d4-158a-439d-b6cd-9f73a68c6603",
+      "Name": "timestamp",
+      "Value": null,
+      "ValueType": "System.Int64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

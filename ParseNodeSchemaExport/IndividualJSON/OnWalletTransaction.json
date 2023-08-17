@@ -1,0 +1,56 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnWalletTransaction",
+  "FriendlyName": "On Ethereum Wallet Transaction",
+  "NodeGroupName": "Blockchain.Ethereum",
+  "NodeBlockType": "event",
+  "NodeDescription": "Event that watch a specific wallet addr and return the details of any new transaction",
+  "InParameters": {
+    "connection": {
+      "Id": "5f0243f5-89b2-414a-9ef8-587ad5e6b652",
+      "Name": "connection",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.EthConnection, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "walletAddress": {
+      "Id": "b1957652-4fa3-47ff-a058-865a89a76bb9",
+      "Name": "walletAddress",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "transaction": {
+      "Id": "3268c86b-df66-4ea8-89ba-d52e6bd1b26c",
+      "Name": "transaction",
+      "Value": null,
+      "ValueType": "Nethereum.RPC.Eth.DTOs.Transaction, Nethereum.RPC, Version=3.8.0.0, Culture=neutral, PublicKeyToken=8768a594786aba4e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

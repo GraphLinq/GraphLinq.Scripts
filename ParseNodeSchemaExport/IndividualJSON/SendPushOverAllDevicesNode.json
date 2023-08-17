@@ -1,0 +1,55 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": true,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "SendPushOverAllDevicesNode",
+  "FriendlyName": "Send Push All Devices",
+  "NodeGroupName": "PushOver",
+  "NodeBlockType": "function",
+  "NodeDescription": "Send a push via PushOver on all your devices",
+  "InParameters": {
+    "pushOver": {
+      "Id": "453fbcca-bfb3-4f85-814a-f3a224d46a98",
+      "Name": "pushOver",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Messaging.Nodes.PushOver.PushOverConnectorNode, NodeBlock.Plugin.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "title": {
+      "Id": "8cf85777-8055-4aa3-a39b-78de1c0f98c1",
+      "Name": "title",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "message": {
+      "Id": "70c815a0-ee17-4f6c-ae4a-3373a180e9ce",
+      "Name": "message",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {},
+  "OutNode": null,
+  "IDEParameters": null
+}

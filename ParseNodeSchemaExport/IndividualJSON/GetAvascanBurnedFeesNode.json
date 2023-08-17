@@ -1,0 +1,55 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetAvascanBurnedFeesNode",
+  "FriendlyName": "Get Avascan Burned Fees",
+  "NodeGroupName": "Avalanche.Avascan",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get Avascan Burned Fees",
+  "InParameters": {},
+  "OutParameters": {
+    "x": {
+      "Id": "637ebe5a-150e-4d9b-b88e-169a3326138b",
+      "Name": "x",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "c": {
+      "Id": "1f2e83b2-0b9d-4fb7-a63c-87aa999514a3",
+      "Name": "c",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "xc": {
+      "Id": "10523bf1-90f3-4fd3-803d-dac9eb3916c9",
+      "Name": "xc",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

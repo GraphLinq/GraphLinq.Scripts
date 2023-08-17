@@ -1,0 +1,56 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "BSCConnectorNode",
+  "FriendlyName": "Binance Smart Chain Connector",
+  "NodeGroupName": "Blockchain.BSC",
+  "NodeBlockType": "connector",
+  "NodeDescription": "Connection to the Binance Smart Chain network, can be used as Managed connection (without in parameters) or with your own node",
+  "InParameters": {
+    "url": {
+      "Id": "c45d551d-3067-4806-9f82-6c9adbba25a2",
+      "Name": "url",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "socketUrl": {
+      "Id": "a1160c82-fa2b-4451-b9b3-f3f2758a4a70",
+      "Name": "socketUrl",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "connection": {
+      "Id": "1ed4f286-424d-4a91-a348-6d156b4fa41e",
+      "Name": "connection",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.BSC.BSCConnectorNode, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

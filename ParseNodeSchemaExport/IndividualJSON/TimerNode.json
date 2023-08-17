@@ -1,0 +1,45 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "10000000000000",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "TimerNode",
+  "FriendlyName": "Timer",
+  "NodeGroupName": "Time",
+  "NodeBlockType": "event",
+  "NodeDescription": "Start a timer that will init a new execution cycle, from in parameter specified time.",
+  "InParameters": {
+    "intervalInSeconds": {
+      "Id": "106aa01c-8852-4221-b8fa-dd68b2b8a99c",
+      "Name": "intervalInSeconds",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "triggerAtStart": {
+      "Id": "c18473a9-4ff7-405b-b50b-0babfda91079",
+      "Name": "triggerAtStart",
+      "Value": null,
+      "ValueType": "System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {},
+  "OutNode": null,
+  "IDEParameters": null
+}

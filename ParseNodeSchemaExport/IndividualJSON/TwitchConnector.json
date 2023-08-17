@@ -1,0 +1,63 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [
+    {
+      "Text": "Open Twitch Developer",
+      "Type": "open_url",
+      "Parameter": "https://dev.twitch.tv/",
+      "TypeId": "NodeBlock.Engine.Attributes.NodeSpecialActionAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "TwitchConnector",
+  "FriendlyName": "Twitch Connector",
+  "NodeGroupName": "Twitch",
+  "NodeBlockType": "connector",
+  "NodeDescription": "Twitch connector, it allow you to create twitch bot easily",
+  "InParameters": {
+    "twitchUsername": {
+      "Id": "8c3b3be2-0fb2-4b0b-9c9b-8865c8503431",
+      "Name": "twitchUsername",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "accessToken": {
+      "Id": "bdd97b1c-d8f3-4e3e-a97b-5fb0e4622741",
+      "Name": "accessToken",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "twitch": {
+      "Id": "b8e9a664-cad1-4def-bd97-e1b58375e097",
+      "Name": "twitch",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Messaging.Nodes.Twitch.TwitchConnector, NodeBlock.Plugin.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

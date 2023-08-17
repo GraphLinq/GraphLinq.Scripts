@@ -1,0 +1,66 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": false,
+  "Graph": null,
+  "NodeType": "GetAvaxBlockTransactionParametersNode",
+  "FriendlyName": "Get Block Parameters",
+  "NodeGroupName": "Blockchain.Avalanche",
+  "NodeBlockType": "function",
+  "NodeDescription": "Parse the last Avalanche block object received into string out parameters readable",
+  "InParameters": {
+    "block": {
+      "Id": "ee494bcd-eec5-4fe9-b444-1f1bd54f90d5",
+      "Name": "block",
+      "Value": null,
+      "ValueType": "Nethereum.RPC.Eth.DTOs.Block, Nethereum.RPC, Version=3.8.0.0, Culture=neutral, PublicKeyToken=8768a594786aba4e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "gasUsed": {
+      "Id": "2ad4a644-21f3-44eb-9bb3-3cab65913790",
+      "Name": "gasUsed",
+      "Value": null,
+      "ValueType": "System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "gasLimit": {
+      "Id": "a1251d2e-8ba4-4dfb-a262-5ec42d3b854e",
+      "Name": "gasLimit",
+      "Value": null,
+      "ValueType": "System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "blockHash": {
+      "Id": "644e194d-9240-4b00-9d56-b4d1c99f3ab4",
+      "Name": "blockHash",
+      "Value": null,
+      "ValueType": "System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

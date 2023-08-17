@@ -1,0 +1,35 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": true,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "WebSocketClientCloseNode",
+  "FriendlyName": "WebSocket Client Close",
+  "NodeGroupName": "WebSocket",
+  "NodeBlockType": "function",
+  "NodeDescription": "Close a WebSocket client connection",
+  "InParameters": {
+    "webSocketClient": {
+      "Id": "e484a2cd-f23f-4e31-8cbb-244d37c1a35b",
+      "Name": "webSocketClient",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Nodes.WebSocket.WebSocketClientConnectorNode, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {},
+  "OutNode": null,
+  "IDEParameters": null
+}

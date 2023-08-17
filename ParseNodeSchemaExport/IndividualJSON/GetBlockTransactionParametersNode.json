@@ -1,0 +1,66 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": false,
+  "Graph": null,
+  "NodeType": "GetBlockTransactionParametersNode",
+  "FriendlyName": "Get Block Parameters",
+  "NodeGroupName": "Blockchain.Ethereum",
+  "NodeBlockType": "function",
+  "NodeDescription": "Parse the last Ethereum block object received into string out parameters readable",
+  "InParameters": {
+    "block": {
+      "Id": "4d78be12-53e1-49ce-aad5-4132aa2640f1",
+      "Name": "block",
+      "Value": null,
+      "ValueType": "Nethereum.RPC.Eth.DTOs.Block, Nethereum.RPC, Version=3.8.0.0, Culture=neutral, PublicKeyToken=8768a594786aba4e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "gasUsed": {
+      "Id": "7c1abf34-d0bf-42d7-a305-28ed1a99acb4",
+      "Name": "gasUsed",
+      "Value": null,
+      "ValueType": "System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "gasLimit": {
+      "Id": "04b7397a-cac9-4aa4-8b66-c9b46d435bae",
+      "Name": "gasLimit",
+      "Value": null,
+      "ValueType": "System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "blockHash": {
+      "Id": "ca3c3614-e4cf-48f0-bfe1-c85a7f69a787",
+      "Name": "blockHash",
+      "Value": null,
+      "ValueType": "System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,47 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "Client": null,
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "PushOverConnectorNode",
+  "FriendlyName": "PushOver Connector",
+  "NodeGroupName": "PushOver",
+  "NodeBlockType": "connector",
+  "NodeDescription": "PushOver is a service that allow you to send push notification to your smartphone",
+  "InParameters": {
+    "apiKey": {
+      "Id": "b74bfea0-2a12-4828-a66c-ee585ef7b53f",
+      "Name": "apiKey",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "pushOver": {
+      "Id": "1c303580-1100-4296-b19d-87d536c67554",
+      "Name": "pushOver",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Messaging.Nodes.PushOver.PushOverConnectorNode, NodeBlock.Plugin.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

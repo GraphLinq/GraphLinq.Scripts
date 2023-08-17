@@ -1,0 +1,88 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [
+    {
+      "Text": "How to use the Uniswap Swap Block ?",
+      "Type": "open_url",
+      "Parameter": "#",
+      "TypeId": "NodeBlock.Engine.Attributes.NodeSpecialActionAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "RequestUniswapSwapNode",
+  "FriendlyName": "Swap ETH For Exact Tokens",
+  "NodeGroupName": "Uniswap",
+  "NodeBlockType": "function",
+  "NodeDescription": "Request a swap on Uniswap for a pair",
+  "InParameters": {
+    "ethConnection": {
+      "Id": "63a8c8c4-1650-4932-9955-6f6a50d21b09",
+      "Name": "ethConnection",
+      "Value": null,
+      "ValueType": "System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "managedWallet": {
+      "Id": "af6f22b8-f906-41ca-8099-b939325318ba",
+      "Name": "managedWallet",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.Wallet.ManagedWallet.ManagedWallet, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "tokenAddress": {
+      "Id": "c1ba85e7-4cda-4cd8-8e79-219e7dbe6ea0",
+      "Name": "tokenAddress",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "amountOut": {
+      "Id": "d34b4d86-86d1-44d5-82c6-c45af8b43808",
+      "Name": "amountOut",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "slippage": {
+      "Id": "4b2ed767-060d-4589-8683-92a33539712d",
+      "Name": "slippage",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {},
+  "OutNode": null,
+  "IDEParameters": {
+    "Hidden": true,
+    "IsScriptInput": false,
+    "ScriptType": "lua",
+    "IsSecretInput": false,
+    "TypeId": "NodeBlock.Engine.Attributes.NodeIDEParametersAttribute, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+  }
+}

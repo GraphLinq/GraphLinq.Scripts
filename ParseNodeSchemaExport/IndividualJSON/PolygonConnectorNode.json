@@ -1,0 +1,56 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "PolygonConnectorNode",
+  "FriendlyName": "Polygon Connector",
+  "NodeGroupName": "Blockchain.Polygon",
+  "NodeBlockType": "connector",
+  "NodeDescription": "Connection to the Polygon network, can be used as Managed connection (without in parameters) or with your own node",
+  "InParameters": {
+    "url": {
+      "Id": "3e65bebb-c47a-4aec-a987-c55d379349d9",
+      "Name": "url",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "socketUrl": {
+      "Id": "29647f1d-7a7d-460d-9347-bcde8b829786",
+      "Name": "socketUrl",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "connection": {
+      "Id": "3adaf2fe-f2f2-4334-949c-4a9315e82c58",
+      "Name": "connection",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.Polygon.PolygonConnectorNode, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

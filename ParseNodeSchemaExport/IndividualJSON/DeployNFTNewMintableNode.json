@@ -1,0 +1,46 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "ntfToken": null,
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "DeployNFTNewMintableNode",
+  "FriendlyName": "Deploy New Mintable NFT Token",
+  "NodeGroupName": "Blockchain.Ethereum.NFT",
+  "NodeBlockType": "deployer",
+  "NodeDescription": "Deploy on the Ethereum network a new NFT on a specific NFT contract owned by the graph issuer",
+  "InParameters": {
+    "wallet": {
+      "Id": "071d2ff7-9c6b-4c37-b842-c6b42356a43b",
+      "Name": "wallet",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.Wallet.ManagedWallet.ManagedWallet, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "nftToken": {
+      "Id": "57d29763-ffd8-49f3-b6f5-b7c0be5d2419",
+      "Name": "nftToken",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.Eth.NftCreator.Models.NFTTokenModel, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {},
+  "OutNode": null,
+  "IDEParameters": null
+}

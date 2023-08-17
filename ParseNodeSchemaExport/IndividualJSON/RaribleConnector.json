@@ -1,0 +1,36 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": false,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "WebAPI": null,
+  "Graph": null,
+  "NodeType": "RaribleConnector",
+  "FriendlyName": "Rarible Connector",
+  "NodeGroupName": "Rarible",
+  "NodeBlockType": "connector",
+  "NodeDescription": "Connection to the Rarible network",
+  "InParameters": {},
+  "OutParameters": {
+    "rarible": {
+      "Id": "7894fe54-0600-43bc-9f2e-fda652d26915",
+      "Name": "rarible",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.Rarible.RaribleConnector, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

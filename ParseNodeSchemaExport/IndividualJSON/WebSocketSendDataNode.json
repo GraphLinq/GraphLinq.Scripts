@@ -1,0 +1,45 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanExecute": true,
+  "CanBeExecuted": true,
+  "Graph": null,
+  "NodeType": "WebSocketSendDataNode",
+  "FriendlyName": "WebSocket Send Data",
+  "NodeGroupName": "WebSocket",
+  "NodeBlockType": "function",
+  "NodeDescription": "Send data to a connected WebSocket server",
+  "InParameters": {
+    "webSocketClient": {
+      "Id": "1c8d3f8a-8248-41df-a55c-3704e5cf67df",
+      "Name": "webSocketClient",
+      "Value": null,
+      "ValueType": "NodeBlock.Engine.Nodes.WebSocket.WebSocketClientConnectorNode, NodeBlock.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "data": {
+      "Id": "4a785877-9599-41d8-9eb1-4588682c8c10",
+      "Name": "data",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {},
+  "OutNode": null,
+  "IDEParameters": null
+}

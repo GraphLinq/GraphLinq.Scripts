@@ -1,0 +1,156 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "GetElrondHyperBlockNode",
+  "FriendlyName": "Get Elrond HyperBlock By Hash",
+  "NodeGroupName": "Blockchain.Elrond",
+  "NodeBlockType": "function",
+  "NodeDescription": "Get hyperblock on Elrond network",
+  "InParameters": {
+    "elrond": {
+      "Id": "34c3c0b4-621e-44da-a856-f2e82ccea974",
+      "Name": "elrond",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.Elrond.ElrondConnectorNode, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "hash": {
+      "Id": "0836a51a-0c53-43c7-a325-e80e03764cdc",
+      "Name": "hash",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "accumulatedFees": {
+      "Id": "260a2efa-4996-4663-aa83-6298167d9563",
+      "Name": "accumulatedFees",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "accumulatedFeesInEpoch": {
+      "Id": "a7cbc45b-1f20-4689-8eca-b47ec6cdc966",
+      "Name": "accumulatedFeesInEpoch",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "developerFees": {
+      "Id": "8cb2d8dc-3798-4994-b074-52c0ddb03d4d",
+      "Name": "developerFees",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "developerFeesInEpoch": {
+      "Id": "00069fbe-b55b-40db-8ee7-df01c4c7f0a5",
+      "Name": "developerFeesInEpoch",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "epoch": {
+      "Id": "bf0758d1-7998-43b1-a980-40b27862325c",
+      "Name": "epoch",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "hash": {
+      "Id": "4adec1bb-e8df-431b-9a93-aced1e003671",
+      "Name": "hash",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "nonce": {
+      "Id": "b7f5f4e7-511b-4074-b678-aa69fd491b45",
+      "Name": "nonce",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "numTxs": {
+      "Id": "2c79c9a4-65b9-4ecb-ae0f-9158d1f89b1a",
+      "Name": "numTxs",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "prevBlockHash": {
+      "Id": "e007a0da-3df8-4ff7-96a1-83e174d9beac",
+      "Name": "prevBlockHash",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "round": {
+      "Id": "07a272dc-d861-4ad5-89ff-bf633d3e03fc",
+      "Name": "round",
+      "Value": null,
+      "ValueType": "System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "status": {
+      "Id": "6634d9df-8070-4128-b4dc-94c15227cd6c",
+      "Name": "status",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

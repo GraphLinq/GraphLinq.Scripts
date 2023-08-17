@@ -1,0 +1,87 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "nFTToken": null,
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "CreateNFTPropertyNode",
+  "FriendlyName": "Create New Mintable NFT Token",
+  "NodeGroupName": "Blockchain.Ethereum.NFT",
+  "NodeBlockType": "deployer",
+  "NodeDescription": "Create a new NFT token from a deployed ERC-721 contract",
+  "InParameters": {
+    "contractAddress": {
+      "Id": "8cb80bad-936f-457f-9e71-8512f416f06d",
+      "Name": "contractAddress",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "tokenOwner": {
+      "Id": "c7541761-c7e2-4c61-9d20-fb2b014466e3",
+      "Name": "tokenOwner",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "name": {
+      "Id": "54cf6bca-4a4d-48e8-af6a-3d5c83ab73f0",
+      "Name": "name",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "description": {
+      "Id": "e9b10499-ff5d-4ad5-bf41-56cb0493d269",
+      "Name": "description",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "image": {
+      "Id": "96d5d4fb-3632-41c2-b464-02a7602a75af",
+      "Name": "image",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "nftToken": {
+      "Id": "aae24900-b128-4d76-bcac-dd4723a7da4e",
+      "Name": "nftToken",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.Eth.NftCreator.Models.NFTTokenModel, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

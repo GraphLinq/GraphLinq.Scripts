@@ -1,0 +1,86 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 1000,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnKuCoinTickerUpdateNode",
+  "FriendlyName": "On KuCoin Pair Ticker Update",
+  "NodeGroupName": "KuCoin",
+  "NodeBlockType": "event",
+  "NodeDescription": "Get a event when the book ticker is updated on KuCoin for a symbol",
+  "InParameters": {
+    "kucoin": {
+      "Id": "d872cae0-060e-4d86-b4c7-050f22e0dd66",
+      "Name": "kucoin",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Exchange.Nodes.KuCoin.KuCoinConnectorNode, NodeBlock.Plugin.Exchange, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "symbol": {
+      "Id": "93b32f13-da62-4536-abc6-67b70e7d5351",
+      "Name": "symbol",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "bestAskPrice": {
+      "Id": "0f890a38-7d17-409e-9fbf-6b7ece805791",
+      "Name": "bestAskPrice",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "bestAskQuantity": {
+      "Id": "1eac19cf-ab8d-4a06-804c-e8cf745e5ef0",
+      "Name": "bestAskQuantity",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "bestBidPrice": {
+      "Id": "67fd2e99-390e-4784-b379-e9fcb1beb90e",
+      "Name": "bestBidPrice",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "bestBidQuantity": {
+      "Id": "895e17e6-7b8a-4fb2-a7c5-05649646bdae",
+      "Name": "bestBidQuantity",
+      "Value": null,
+      "ValueType": "System.Double, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

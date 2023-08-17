@@ -1,0 +1,46 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "EtherscanConnectorNode",
+  "FriendlyName": "Etherscan Connector",
+  "NodeGroupName": "Blockchain.Ethereum",
+  "NodeBlockType": "connector",
+  "NodeDescription": "Connection to the Etherscan API",
+  "InParameters": {
+    "apiKey": {
+      "Id": "f751fd2e-108c-40a5-9aa1-bdf3ff98cc04",
+      "Name": "apiKey",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "etherscanConnection": {
+      "Id": "c823ff07-4412-4dd7-9742-a6db8a30a452",
+      "Name": "etherscanConnection",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.Etherscan.EtherscanConnectorNode, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,77 @@
+{
+  "Id": "",
+  "IsEventNode": false,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "BEP20Token": null,
+  "CanBeExecuted": true,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "CreateBEP20TokenNode",
+  "FriendlyName": "Create BEP20 Token",
+  "NodeGroupName": "Blockchain.BSC.BEP20",
+  "NodeBlockType": "deployer",
+  "NodeDescription": "Create a new BEP20 token instance",
+  "InParameters": {
+    "name": {
+      "Id": "20066a51-68eb-4c00-8a79-d1b45fef9379",
+      "Name": "name",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "symbol": {
+      "Id": "967600d6-3be3-4eed-95f2-f74f439f3e09",
+      "Name": "symbol",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "owner": {
+      "Id": "6c820cf8-6f08-429b-b6b4-cf282b0d429f",
+      "Name": "owner",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "totalSupply": {
+      "Id": "d08d51cf-9b8a-4ba4-ac9e-5a2c4fa694f4",
+      "Name": "totalSupply",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "bep20": {
+      "Id": "1c86e56c-f02a-4bf1-b5e8-ad650db16bf3",
+      "Name": "bep20",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.BSC.CoinCreator.Models.BEP20CreatorModel, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": false,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}

@@ -1,0 +1,56 @@
+{
+  "Id": "",
+  "IsEventNode": true,
+  "LastExecutionFrom": null,
+  "CanBeSerialized": true,
+  "NodeCycleLimit": 0,
+  "LastCycleAt": 0,
+  "CurrentTraceItem": null,
+  "CustomTimeout": 0,
+  "GasCost": "0",
+  "SpecialActionsAttributes": [],
+  "CanBeExecuted": false,
+  "CanExecute": true,
+  "Graph": null,
+  "NodeType": "OnBSCWalletTransaction",
+  "FriendlyName": "On Binance Smart Chain Wallet Transaction",
+  "NodeGroupName": "Blockchain.BSC",
+  "NodeBlockType": "event",
+  "NodeDescription": "Event that watch a specific wallet addr and return the details of any new transaction",
+  "InParameters": {
+    "connection": {
+      "Id": "c072978c-094d-4ffb-84e4-05f4958030f1",
+      "Name": "connection",
+      "Value": null,
+      "ValueType": "NodeBlock.Plugin.Ethereum.Nodes.EthConnection, NodeBlock.Plugin.Ethereum, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    },
+    "walletAddress": {
+      "Id": "ef14513d-5431-45ee-808e-e1c66a3e1ee8",
+      "Name": "walletAddress",
+      "Value": null,
+      "ValueType": "System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutParameters": {
+    "transaction": {
+      "Id": "a32fe197-622e-4c70-98f1-c8591d709ce3",
+      "Name": "transaction",
+      "Value": null,
+      "ValueType": "Nethereum.RPC.Eth.DTOs.Transaction, Nethereum.RPC, Version=3.8.0.0, Culture=neutral, PublicKeyToken=8768a594786aba4e",
+      "IsIn": true,
+      "IsDynamic": false,
+      "Assignments": null,
+      "IsReference": false
+    }
+  },
+  "OutNode": null,
+  "IDEParameters": null
+}
